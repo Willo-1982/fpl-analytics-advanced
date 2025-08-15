@@ -1,0 +1,53 @@
+
+name: Nightly Refresh
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 04:30 UTC daily
+  workflow_dispatch: {}
+
+env:
+  PUSH_BACK: ${{ secrets.PUSH_BACK || 'false' }}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch FPL data
+        run: python pipeline/fetch_fpl_data.py all
+
+      - name: Ingest xG/xA (provider from configs/config.toml)
+        run: python pipeline/ingest_xgxa.py --season 2024
+
+      - name: Compute projections
+        run: python pipeline/compute_phase3.py --next_n 5
+
+      - name: Upload cache as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-cache
+          path: data/cache
+
+      - name: Optionally commit cache back to repo
+        if: ${{ env.PUSH_BACK == 'true' }}
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/cache || true
+          git commit -m "Nightly cache update" || echo "No changes"
+          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}

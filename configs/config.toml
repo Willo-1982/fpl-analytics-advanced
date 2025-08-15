@@ -1,0 +1,18 @@
+
+[user_agent]
+value = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+
+[network]
+timeout_seconds = 25
+
+[caching]
+raw_dir = "data/raw"
+cache_dir = "data/cache"
+write_latest_copies = true
+timestamp_format = "%Y-%m-%dT%H-%M-%SZ"
+
+[xgxa]
+provider = "fbref"
+season = 2024
+min_minutes = 180
+match_cutoff = 200  # ignore extreme low samples
