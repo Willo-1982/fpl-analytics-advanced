@@ -2,7 +2,7 @@ name: Nightly Refresh
 
 on:
   schedule:
-    - cron: "30 4 * * *"        # 04:30 UTC daily
+    - cron: "30 4 * * *"     # 04:30 UTC daily
   workflow_dispatch: {}
 
 jobs:
@@ -17,6 +17,7 @@ jobs:
 
       - name: Show previous xgxa (if any)
         run: |
+          mkdir -p data/cache
           if [ -f data/cache/xgxa_players.csv ]; then
             ls -lh data/cache/xgxa_players.csv || true
             cp data/cache/xgxa_players.csv /tmp/prev_xgxa.csv || true
@@ -36,37 +37,18 @@ jobs:
         run: python pipeline/fetch_fpl_data.py all
 
       # Try UNDERSTAT first
-      - name: Phase 2 — Ingest xG/xA (Understat)
-        env:
-          # Realistic UA reduces blocks
-          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+      - name: Phase 2 — Ingest xG/xA (Understat first)
         run: |
-          python - << 'PY'
-          import tomllib, tomli_w, os
-          path="configs/config.toml"
-          with open(path,"rb") as f: cfg=tomllib.load(f)
-          cfg.setdefault("user_agent",{})["value"]=os.environ.get("UA", cfg.get("user_agent",{}).get("value","Mozilla/5.0"))
-          cfg.setdefault("xgxa",{})["provider"]="understat"
-          with open(path,"wb") as f: tomli_w.dump(cfg,f)
-          PY
+          # Force provider = "understat" in configs/config.toml using sed
+          sed -i 's/^\(\s*provider\s*=\s*\).*/\1"understat"/' configs/config.toml || true
           python pipeline/ingest_xgxa.py --season 2024 || true
 
-      - name: Check xgxa size; if too small, try FBref
-        env:
-          UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-        run: |
+          # If file too small, try FBref
           BYTES=$(wc -c < data/cache/xgxa_players.csv 2>/dev/null || echo 0)
-          echo "Current xgxa size: $BYTES bytes"
+          echo "Understat xgxa size: $BYTES bytes"
           if [ "$BYTES" -lt 1000 ]; then
             echo "Too small — trying FBref..."
-            python - << 'PY'
-            import tomllib, tomli_w, os
-            path="configs/config.toml"
-            with open(path,"rb") as f: cfg=tomllib.load(f)
-            cfg.setdefault("user_agent",{})["value"]=os.environ.get("UA", cfg.get("user_agent",{}).get("value","Mozilla/5.0"))
-            cfg.setdefault("xgxa",{})["provider"]="fbref"
-            with open(path,"wb") as f: tomli_w.dump(cfg,f)
-            PY
+            sed -i 's/^\(\s*provider\s*=\s*\).*/\1"fbref"/' configs/config.toml || true
             python pipeline/ingest_xgxa.py --season 2024 || true
           fi
 
@@ -78,7 +60,9 @@ jobs:
             echo "Still tiny — restoring previous xgxa_players.csv"
             cp /tmp/prev_xgxa.csv data/cache/xgxa_players.csv
           fi
-          ls -lh data/cache/xgxa_players.csv || (echo "Missing xgxa_players.csv" && exit 1)
+          # must exist now (either new or restored)
+          test -f data/cache/xgxa_players.csv
+          ls -lh data/cache/xgxa_players.csv
 
       - name: Phase 3 — Compute projections
         run: python pipeline/compute_phase3.py --next_n 5
