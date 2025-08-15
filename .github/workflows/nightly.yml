@@ -1,8 +1,11 @@
 name: Nightly Refresh
 
+permissions:
+  contents: write   # allow commits/pushes
+
 on:
   schedule:
-    - cron: "30 4 * * *"     # 04:30 UTC daily
+    - cron: "30 4 * * *"
   workflow_dispatch: {}
 
 jobs:
