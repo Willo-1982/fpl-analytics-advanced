@@ -1,81 +1,119 @@
-
 from __future__ import annotations
-import argparse, json, os, pandas as pd, numpy as np
-from metrics import POSITION_MAP, expected_minutes, get_attack_multiplier, get_cs_prob, compute_fixture_ep
+import argparse, json, os
+import pandas as pd, numpy as np
 
 def load_inputs():
     b=json.load(open("data/cache/bootstrap-static.json","r",encoding="utf-8"))
-    f=json.load(open("data/cache/fixtures.json","r",encoding="utf-8"))
-    x=pd.read_csv("data/cache/xgxa_players.csv")
-    return b,f,x
+    fx=json.load(open("data/cache/fixtures.json","r",encoding="utf-8"))
+    x_path="data/cache/xgxa_players.csv"
+    x=pd.read_csv(x_path) if os.path.exists(x_path) else pd.DataFrame(columns=["fpl_id","fpl_name","xg_per90","xa_per90"])
+    return b, fx, x
 
-def completed_events(bootstrap): return sum(1 for e in bootstrap['events'] if e.get('finished'))
+def current_event(bs):
+    evs = bs.get("events", [])
+    for e in evs:
+        if e.get("is_current") or (e.get("is_next") and not e.get("finished")):
+            return e["id"]
+    unfinished = [e["id"] for e in evs if not e.get("finished")]
+    return min(unfinished) if unfinished else 1
 
-def current_event(bootstrap):
-    cur=[e for e in bootstrap['events'] if e.get('is_current')]
-    if cur: return int(cur[0]['id'])
-    nxt=[e for e in bootstrap['events'] if e.get('is_next')]
-    if nxt: return int(nxt[0]['id'])
-    return 1
+def elements_df(bs):
+    df = pd.DataFrame(bs["elements"])
+    teams = pd.DataFrame(bs["teams"])[["id","name"]].rename(columns={"id":"team","name":"team_name"})
+    df = df.merge(teams, left_on="team", right_on="team", how="left")
+    pos_map = {1:"GK",2:"DEF",3:"MID",4:"FWD"}
+    df["position"] = df["element_type"].map(pos_map)
+    df = df.rename(columns={"id":"id","web_name":"web_name","now_cost":"price"})
+    df["price"] = df["price"].astype(float)/10.0
+    return df
 
-def build_players_df(bs):
-    p=pd.DataFrame(bs['elements'])
-    pos=pd.DataFrame(bs['element_types'])[['id','singular_name_short']].rename(columns={'id':'element_type','singular_name_short':'pos_short'})
-    t=pd.DataFrame(bs['teams'])[['id','name']].rename(columns={'id':'team','name':'team_name'})
-    p=p.merge(pos,on='element_type').merge(t,on='team')
-    p['position']=p['element_type'].map(POSITION_MAP)
-    p['price_m']=p['now_cost']/10.0
-    return p
+def build_fixture_matrix(bs, fx, horizon):
+    ev = current_event(bs)
+    f = pd.DataFrame(fx)
+    f = f[(f["event"].fillna(0) >= ev) & (f["event"].fillna(0) < ev + horizon)]
+    f = f[["event","team_h","team_a","team_h_difficulty","team_a_difficulty"]]
+    home = f.rename(columns={"team_h":"team","team_h_difficulty":"diff"}).assign(home=1)[["event","team","diff","home"]]
+    away = f.rename(columns={"team_a":"team","team_a_difficulty":"diff"}).assign(home=0)[["event","team","diff","home"]]
+    ft = pd.concat([home, away], ignore_index=True)
+    return ft
 
-def fixtures_for_event(fixtures,ev):
-    import pandas as pd
-    df=pd.DataFrame(fixtures); return df[df['event']==ev].copy()
+def expected_minutes_simple(players: pd.DataFrame, fixtures_team: pd.DataFrame):
+    base = players[["id","minutes"]].copy()
+    base["start_rate"] = (base["minutes"].fillna(0)/900).clip(0,1)
+    base["exp_minutes_per_fixture"] = 50 + 40*base["start_rate"]
+    team_fixture_counts = fixtures_team.groupby("team").size().rename("fixtures_n")
+    players2 = players.merge(team_fixture_counts, left_on="team", right_index=True, how="left").fillna({"fixtures_n":0})
+    em = players2.merge(base[["id","exp_minutes_per_fixture"]], on="id", how="left")
+    em["exp_minutes_total"] = em["fixtures_n"] * em["exp_minutes_per_fixture"].fillna(0)
+    return em[["id","exp_minutes_total","fixtures_n"]]
 
-def project_event(bs,fixtures,dfx,ev):
-    players=build_players_df(bs); df_ev=fixtures_for_event(fixtures,ev)
-    if 'fpl_id' in dfx.columns:
-        dfx['fpl_id']=pd.to_numeric(dfx['fpl_id'],errors='coerce')
-        m=players.merge(dfx,left_on='id', right_on='fpl_id', how='left')
+def simple_points_engine(players: pd.DataFrame, fixtures_team: pd.DataFrame, horizon: int, xgxa: pd.DataFrame):
+    df = players.copy()
+    if "fpl_id" in xgxa.columns:
+        df = df.merge(xgxa.rename(columns={"fpl_id":"id"}), on="id", how="left")
     else:
-        players['merge_name']=(players['first_name'].str.lower()+' '+players['second_name'].str.lower()).str.strip()
-        dfx['merge_name']=dfx.get('fpl_name', dfx.get('provider_match_name')).astype(str).str.lower().str.strip()
-        m=players.merge(dfx,on='merge_name',how='left')
-    for c in ['xg_per90','xa_per90']:
-        if c not in m.columns: m[c]=0.0
-        m[c]=m[c].fillna(0.0)
-    comp=completed_events(bs)
-    atk_map, cs_map = {}, {}
-    for _,fx in df_ev.iterrows():
-        hd=int(fx.get('team_h_difficulty',3)); ad=int(fx.get('team_a_difficulty',3))
-        atk_map[int(fx['team_h'])]=get_attack_multiplier(ad)
-        atk_map[int(fx['team_a'])]=get_attack_multiplier(hd)
-        cs_map[int(fx['team_h'])]=get_cs_prob(hd); cs_map[int(fx['team_a'])]=get_cs_prob(ad)
-    m['chance_of_playing_next_round']=pd.to_numeric(m['chance_of_playing_next_round'],errors='coerce')
-    m['expected_minutes']=m.apply(lambda r: expected_minutes(r.get('minutes',0.0), comp, r.get('chance_of_playing_next_round', None)), axis=1)
-    m['attack_mult']=m['team'].map(lambda tid: atk_map.get(int(tid),1.0))
-    m['cs_prob']=m['team'].map(lambda tid: cs_map.get(int(tid),0.30))
-    m['EP']=m.apply(lambda r: compute_fixture_ep(r, r['position']), axis=1)
-    m['VFM']=m['EP']/m['price_m'].replace(0,np.nan)
-    keep=['id','web_name','first_name','second_name','team','team_name','position','price_m','xg_per90','xa_per90','expected_minutes','attack_mult','cs_prob','EP','VFM']
-    return m[keep].sort_values('EP',ascending=False)
+        df = df.merge(xgxa.rename(columns={"fpl_name":"web_name"}), on="web_name", how="left")
+    for c in ["xg_per90","xa_per90"]:
+        if c not in df.columns: df[c]=0.0
+        df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0.0)
+    ft = fixtures_team.copy()
+    if "diff" in ft.columns:
+        ft["cs_prob"] = (6 - ft["diff"].fillna(3)).clip(1,5) / 10.0
+    else:
+        ft["cs_prob"] = 0.3
+    cs_by_team = ft.groupby("team")["cs_prob"].sum().rename("cs_prob_sum")
+    df = df.merge(cs_by_team, left_on="team", right_index=True, how="left")
+    df["cs_prob_sum"] = df["cs_prob_sum"].fillna(0.0)
+    em = expected_minutes_simple(df, ft)
+    df = df.merge(em, on="id", how="left").fillna({"exp_minutes_total":0,"fixtures_n":0})
+    df["appearance_pts"] = np.where(df["fixtures_n"]>0, 2.0*df["fixtures_n"], 0.0)
+    pos_cs = {"GK":4.0,"DEF":4.0,"MID":1.0,"FWD":0.0}
+    pos_goal = {"GK":0.0,"DEF":6.0,"MID":5.0,"FWD":4.0}
+    pos_ast = {"GK":3.0,"DEF":3.0,"MID":3.0,"FWD":3.0}
+    df["cs_pts"] = df.apply(lambda r: pos_cs.get(r["position"],0.0)*r["cs_prob_sum"], axis=1)
+    factor = (df["exp_minutes_total"]/90.0).clip(lower=0.0)
+    df["goals_exp"] = factor * df["xg_per90"]
+    df["assists_exp"] = factor * df["xa_per90"]
+    df["att_pts"] = df.apply(lambda r: r["goals_exp"]*pos_goal.get(r["position"],0.0) + r["assists_exp"]*pos_ast.get(r["position"],3.0), axis=1)
+    df["ep_total"] = (df["appearance_pts"] + df["cs_pts"] + df["att_pts"]).round(2)
+    return df[["id","web_name","team_name","position","price","ep_total","exp_minutes_total"]].rename(
+        columns={"exp_minutes_total":"exp_minutes"})
 
-def project_next_n(bs,fixtures,dfx,start,n):
-    out=None
-    for ev in range(start, start+n):
-        d=project_event(bs,fixtures,dfx,ev).rename(columns={'EP':f'EP_ev{ev}'})
-        d=d[['id','web_name','team','team_name','position','price_m',f'EP_ev{ev}']]
-        out=d if out is None else out.merge(d, on=['id','web_name','team','team_name','position','price_m'], how='outer')
-    epcols=[c for c in out.columns if c.startswith('EP_ev')]
-    out['EP_sum']=out[epcols].sum(axis=1, skipna=True); out['VFM_sum']=out['EP_sum']/out['price_m'].replace(0,np.nan)
-    return out.sort_values('EP_sum',ascending=False)
+def build_projection_for_range(bs, fx, xgxa, n: int):
+    players = elements_df(bs)
+    ft = build_fixture_matrix(bs, fx, horizon=n)
+    proj = simple_points_engine(players, ft, n, xgxa)
+    return proj
+
+def write_captaincy(out_next: pd.DataFrame):
+    cap = out_next.sort_values("ep_total", ascending=False).head(50).copy()
+    cap = cap[["id","web_name","team_name","position","price","ep_total"]]
+    cap.to_csv("data/cache/captaincy_rankings.csv", index=False)
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument("--next_n",type=int,default=5); args=ap.parse_args()
-    bs,fx,dx=load_inputs(); ev=current_event(bs)
-    os.makedirs("data/cache",exist_ok=True)
-    d1=project_event(bs,fx,dx,ev); d1.to_csv("data/cache/projections_next_gw.csv",index=False)
-    dN=project_next_n(bs,fx,dx,ev,args.next_n); dN.to_csv("data/cache/projections_next_5gws.csv",index=False)
-    cap=d1[d1['position'].isin(['MID','FWD'])].copy(); cap['ceiling_proxy']=(cap['xg_per90']+cap['xa_per90'])*cap['attack_mult']; cap.sort_values('EP',ascending=False).to_csv("data/cache/captaincy_rankings.csv",index=False)
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--next_n", type=int, default=None, help="If set, writes only that horizon (1/3/5). Otherwise writes all.")
+    args=ap.parse_args()
+    bs, fx, xgxa = load_inputs()
+    if args.next_n:
+        out = build_projection_for_range(bs, fx, xgxa, n=args.next_n)
+        if args.next_n == 1:
+            out.to_csv("data/cache/projections_next_gw.csv", index=False); write_captaincy(out)
+        elif args.next_n == 3:
+            out.to_csv("data/cache/projections_next_3gws.csv", index=False)
+        elif args.next_n == 5:
+            out.to_csv("data/cache/projections_next_5gws.csv", index=False)
+        else:
+            out.to_csv(f"data/cache/projections_next_{args.next_n}gws.csv", index=False)
+        print("Projections & captaincy written to data/cache/."); return
+    out1 = build_projection_for_range(bs, fx, xgxa, n=1)
+    out3 = build_projection_for_range(bs, fx, xgxa, n=3)
+    out5 = build_projection_for_range(bs, fx, xgxa, n=5)
+    out1.to_csv("data/cache/projections_next_gw.csv", index=False)
+    out3.to_csv("data/cache/projections_next_3gws.csv", index=False)
+    out5.to_csv("data/cache/projections_next_5gws.csv", index=False)
+    write_captaincy(out1)
     print("Projections & captaincy written to data/cache/.")
 
-if __name__=="__main__": main()
+if __name__=="__main__":
+    main()

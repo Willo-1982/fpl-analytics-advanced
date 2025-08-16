@@ -1,16 +1,44 @@
-import streamlit as st, pandas as pd, os
-st.set_page_config(page_title='Picks', page_icon='🎯', layout='wide'); st.title('🎯 Picks — Next Gameweek')
-p='data/cache/projections_next_gw.csv'
-if not os.path.exists(p): st.warning('No projections. Run pipeline.'); st.stop()
-df=pd.read_csv(p)
-positions=sorted(df['position'].dropna().unique().tolist()); teams=sorted(df['team_name'].dropna().unique().tolist())
-with st.sidebar:
-    st.subheader('Filters')
-    pos=st.multiselect('Positions',positions,default=positions)
-    team=st.multiselect('Teams',teams,default=teams)
-    price=st.slider('Max Price (m)', float(df['price_m'].min()), float(df['price_m'].max()), float(df['price_m'].max()))
-    topn=st.slider('Top N',5,50,15)
-mask=df['position'].isin(pos)&df['team_name'].isin(team)&(df['price_m']<=price); d=df.loc[mask].copy()
-tab1,tab2=st.tabs(['Top EP','Best VFM'])
-with tab1: st.dataframe(d.sort_values('EP',ascending=False).head(topn)[['web_name','team_name','position','price_m','EP','xg_per90','xa_per90','expected_minutes']], use_container_width=True)
-with tab2: st.dataframe(d.sort_values('VFM',ascending=False).head(topn)[['web_name','team_name','position','price_m','VFM','EP']], use_container_width=True)
+import streamlit as st
+import pandas as pd
+
+st.title("Picks — Expected Points")
+
+p1 = pd.read_csv("data/cache/projections_next_gw.csv")
+p3 = pd.read_csv("data/cache/projections_next_3gws.csv")
+p5 = pd.read_csv("data/cache/projections_next_5gws.csv")
+
+p1 = p1.rename(columns={"ep_total":"ep_1"})
+p3 = p3.rename(columns={"ep_total":"ep_3"})
+p5 = p5.rename(columns={"ep_total":"ep_5"})
+
+df = (
+    p1.merge(p3[["id","ep_3"]], on="id", how="left")
+      .merge(p5[["id","ep_5"]], on="id", how="left")
+)
+
+show_all = st.sidebar.checkbox("Show ALL FPL-registered players (include 0 mins)", value=False)
+pos = st.sidebar.multiselect("Positions", options=["GK","DEF","MID","FWD"], default=["GK","DEF","MID","FWD"])
+
+if not show_all:
+    df = df[df["exp_minutes"].fillna(0) > 0]
+
+df = df[df["position"].isin(pos)]
+df["ep_3_avg"] = (df["ep_3"]/3).round(2)
+df["ep_5_avg"] = (df["ep_5"]/5).round(2)
+
+tab1, tab3, tab5 = st.tabs(["Next GW", "Next 3 GWs", "Next 5 GWs"])
+
+with tab1:
+    d = df.sort_values("ep_1", ascending=False)
+    st.dataframe(d[["web_name","team_name","position","price","ep_1","ep_3","ep_5","ep_3_avg","ep_5_avg"]], hide_index=True)
+    st.download_button("Download current view (CSV)", d.to_csv(index=False).encode("utf-8"), "picks_next_gw.csv", "text/csv")
+
+with tab3:
+    d = df.sort_values("ep_3", ascending=False)
+    st.dataframe(d[["web_name","team_name","position","price","ep_1","ep_3","ep_5","ep_3_avg","ep_5_avg"]], hide_index=True)
+    st.download_button("Download current view (CSV)", d.to_csv(index=False).encode("utf-8"), "picks_next_3gws.csv", "text/csv")
+
+with tab5:
+    d = df.sort_values("ep_5", ascending=False)
+    st.dataframe(d[["web_name","team_name","position","price","ep_1","ep_3","ep_5","ep_3_avg","ep_5_avg"]], hide_index=True)
+    st.download_button("Download current view (CSV)", d.to_csv(index=False).encode("utf-8"), "picks_next_5gws.csv", "text/csv")
