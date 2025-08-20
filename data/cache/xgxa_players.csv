@@ -52,7 +52,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 49,Leon Bailey,0.22405014839023352,0.18533441034378484,100.0
 50,Emiliano Buendía Stati,0.0,0.0,0.0
 51,Samuel Iling-Junior,0.0,0.0,0.0
-52,Jacob Ramsey,0.07859670320475423,0.15628222038818373,100.0
 53,Donyell Malen,1.0256552107913313,0.0611811673866128,100.0
 54,John McGinn,0.15197155415235916,0.1393495956920734,100.0
 55,Ross Barkley,0.3835751038573726,0.17157548955867627,100.0
@@ -142,6 +141,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 98,Enes Ünal,0.6216758928478581,0.16802707444621276,100.0
 99,Daniel Adu-Adjei,0.0,0.0,0.0
 100,Eli Junior Kroupi,0.0,0.0,0.0
+391,Ben Doak,0.0,0.0,0.0
 685,Bafodé Diakité,0.0,0.0,0.0
 687,Remy Rees-Dottin,0.0,0.0,0.0
 83,Dango Ouattara,0.48883816374440836,0.26778709690257263,100.0
@@ -405,7 +405,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 388,Curtis Jones,0.23928230404073653,0.09165310749481798,100.0
 389,Harvey Elliott,0.4690908677293919,0.3598238258273341,100.0
 390,Ryan Gravenberch,0.03747121438793966,0.06795503289641701,100.0
-391,Ben Doak,0.0,0.0,0.0
 392,Endo Wataru,0.0,0.02669649511839436,95.0
 393,Stefan Bajčetić Maquieira,0.0,0.0,0.0
 394,James McConnell,0.0,0.0,0.0
@@ -487,6 +486,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 467,Chido Obi,0.0,0.0,0.0
 468,Ethan Wheatley,0.0,0.0,0.0
 681,Benjamin Sesko,0.0,0.0,0.0
+52,Jacob Ramsey,0.07859670320475423,0.15628222038818373,100.0
 469,Nick Pope,0.0,0.0027529291276420865,100.0
 471,Mark Gillespie,0.0,0.0,0.0
 472,Odysseas Vlachodimos,0.0,0.0,0.0
@@ -551,6 +551,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 669,Dan Ndoye,0.0,0.0,0.0
 675,Angus Gunn,0.0,0.0,0.0
 693,Omari Hutchinson,0.12104654756467079,0.11588589782392933,100.0
+696,Arnaud Kalimuendo,0.0,0.0,0.0
 252,Marc Guiu Paz,0.0,0.0,0.0
 528,Anthony Patterson,0.0,0.0,0.0
 529,Simon Moore,0.0,0.0,0.0
@@ -693,3 +694,4 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 658,Nathan Fraser,0.0,0.0,0.0
 663,Jhon Arias,0.0,0.0,0.0
 682,David Møller Wolfe,0.0,0.0,0.0
+695,Jackson Tchatchoua,0.0,0.0,0.0
