@@ -1,0 +1,39 @@
+{
+  "budget": 100.0,
+  "bank": 0.0,
+  "free_transfers": 1,
+  "chip_free_hit_available": true,
+  "chip_wildcard_available": true,
+  "squad": [
+    139,
+    470,
+    232,
+    575,
+    145,
+    441,
+    260,
+    16,
+    235,
+    413,
+    119,
+    427,
+    249,
+    666,
+    661
+  ],
+  "starters": [
+    139,
+    575,
+    232,
+    260,
+    16,
+    235,
+    249,
+    413,
+    119,
+    145,
+    470
+  ],
+  "captain": 16,
+  "vice": 235
+}
