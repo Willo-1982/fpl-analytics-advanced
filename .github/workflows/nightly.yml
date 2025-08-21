@@ -1,1 +1,12 @@
-PASTE THE YAML ABOVE
+name: Nightly Refresh
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Workflow registered OK
