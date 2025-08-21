@@ -1,12 +1,85 @@
+@"
 name: Nightly Refresh
 
+permissions:
+  contents: write
+
 on:
-  workflow_dispatch: {}
   push:
     branches: [ main ]
+  workflow_dispatch: {}
+  schedule:
+    - cron: "30 4 * * *"  # daily 04:30 UTC
 
 jobs:
-  ping:
+  refresh:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Workflow registered OK
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: \${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f constraints.txt ]; then
+            pip install -r requirements.txt -c constraints.txt
+          else
+            pip install -r requirements.txt
+          fi
+
+      - name: Ensure cache folders
+        run: |
+          mkdir -p data/cache
+          mkdir -p data/raw
+
+      - name: Phase 1 — Fetch FPL
+        run: python pipeline/fetch_fpl_data.py all
+
+      - name: Phase 2 — Ingest xG/xA (Understat→FBref fallback)
+        run: |
+          sed -i 's/^\(\s*provider\s*=\s*\).*/\1"understat"/' configs/config.toml || true
+          python pipeline/ingest_xgxa.py --season 2024 || true
+          BYTES=$(wc -c < data/cache/xgxa_players.csv 2>/dev/null || echo 0)
+          echo "Understat size: $BYTES bytes"
+          if [ "$BYTES" -lt 1000 ]; then
+            echo "Too small — trying FBref…"
+            sed -i 's/^\(\s*provider\s*=\s*\).*/\1"fbref"/' configs/config.toml || true
+            python pipeline/ingest_xgxa.py --season 2024 || true
+          fi
+          BYTES=$(wc -c < data/cache/xgxa_players.csv 2>/dev/null || echo 0)
+          echo "Final xgxa size: $BYTES bytes"
+          test "$BYTES" -gt 0
+
+      - name: Phase 3 — Compute projections (1/3/5)
+        run: python pipeline/compute_phase3.py --next_n 5
+
+      - name: Upload cache as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-cache
+          path: data/cache
+
+      - name: Commit cache back to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/cache/xgxa_players.csv || true
+          git add data/cache/projections_next_gw.csv || true
+          git add data/cache/projections_next_3gws.csv || true
+          git add data/cache/projections_next_5gws.csv || true
+          git add data/cache/captaincy_rankings.csv || true
+          git commit -m "Data refresh (auto)" || echo "No changes to commit"
+          git push
+"@ | Set-Content -Encoding ASCII .github\workflows\nightly.yml
+
+git add .github\workflows\nightly.yml
+git commit -m "Nightly Refresh: full data pipeline + manual/push triggers"
+git push origin main
