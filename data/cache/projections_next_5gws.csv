@@ -320,7 +320,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 311,Beto,Everton,FWD,5.5,10.0,322.7952
 312,Y.Chermiti,Everton,FWD,5.0,10.0,309.62412000000006
 313,Sherif,Everton,FWD,4.5,10.0,309.62412000000006
-419,Grealish,Everton,MID,6.5,20.07,316.0443
+419,Grealish,Everton,MID,6.5,20.07,316.02285
 630,King,Everton,GK,4.0,20.18,357.5745
 667,Aznou,Everton,DEF,4.5,20.18,337.38795000000005
 314,Leno,Fulham,GK,5.0,21.43,377.46540000000005
@@ -445,7 +445,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 427,Reijnders,Man City,MID,5.6,13.24,374.27520000000004
 428,Nypan,Man City,MID,5.0,13.24,0.0
 429,Phillips,Man City,MID,5.0,14.34,309.60306
-430,Haaland,Man City,FWD,14.0,30.31,385.84260000000006
+430,Haaland,Man City,FWD,14.0,30.31,385.86834000000005
 119,Mbeumo,Man Utd,MID,8.0,25.26,324.12744000000004
 431,Bayindir,Man Utd,GK,5.0,20.13,370.54079999999993
 432,Onana,Man Utd,GK,5.0,20.3,396.981
@@ -641,7 +641,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 607,N.Aguerd,West Ham,DEF,4.5,20.96,343.635875
 608,Scarles,West Ham,DEF,4.5,21.85,337.36500000000007
 609,Todibo,West Ham,DEF,4.5,21.44,343.635875
-610,Wan-Bissaka,West Ham,DEF,4.5,24.22,348.8485
+610,Wan-Bissaka,West Ham,DEF,4.5,24.22,348.82512499999996
 611,Casey,West Ham,DEF,4.0,20.96,0.0
 612,L.Paquetá,West Ham,MID,5.9,12.74,321.2445600000001
 613,Souček,West Ham,MID,5.9,12.74,315.48660000000007
