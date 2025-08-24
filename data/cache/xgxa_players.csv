@@ -32,6 +32,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 31,Gabriel Fernando de Jesus,0.16289173300857798,0.04625214306129651,90.0
 662,Cristhian Mosquera,0.0,0.0,0.0
 666,Viktor Gyökeres,0.0,0.0,0.0
+700,Max Dowman,0.0,0.0,0.0
 32,Emiliano Martínez Romero,0.0,0.0,0.0
 33,Marco Bizot,0.0,0.0,0.0
 34,Joe Gauci,0.0,0.0,0.0
@@ -67,6 +68,9 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 65,Zépiqueno Redmond,0.0,0.0,0.0
 677,Evann Guessand,0.0,0.0,0.0
 688,James Wright,0.0,0.0,0.0
+701,Triston Rowe,0.0,0.0,0.0
+702,Bradley Burrowes,0.0,0.0,0.0
+703,Sam Proctor,0.0,0.0,0.0
 183,Max Weiß,0.0,0.0,0.0
 184,Etienne Green,0.0,0.0,0.0
 185,Václav Hladký,0.0,0.0,0.0
