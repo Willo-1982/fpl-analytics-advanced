@@ -30,6 +30,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 29,Albert Sambi Lokonga,0.0,0.0,0.0
 30,Kai Havertz,0.5663594963583858,0.14116938303204926,100.0
 31,Gabriel Fernando de Jesus,0.16289173300857798,0.04625214306129651,90.0
+266,Eberechi Eze,0.3373532879256433,0.2397570701694183,100.0
 662,Cristhian Mosquera,0.0,0.0,0.0
 666,Viktor Gyökeres,0.0,0.0,0.0
 700,Max Dowman,0.0,0.0,0.0
@@ -275,7 +276,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 263,Nathaniel Clyne,0.004361957508307066,0.030070071727592754,100.0
 264,Rob Holding,0.0,0.0,0.0
 265,Caleb Kporha,0.0,0.0,0.0
-266,Eberechi Eze,0.3373532879256433,0.2397570701694183,100.0
 267,Ismaïla Sarr,0.404591066307008,0.3305658951899686,91.66666666666666
 268,Cheick Doucouré,0.0,0.0,0.0
 269,Romain Esse,0.0,0.0,0.0
@@ -328,6 +328,8 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 419,Jack Grealish,0.16604321985809653,0.25021670644370236,100.0
 630,Tom King,0.0,0.0,0.0
 667,Adam Aznou,0.0,0.0,0.0
+704,Tyler Onyango,0.0,0.0,0.0
+705,Elijah Campbell,0.0,0.0,0.0
 314,Bernd Leno,0.0,0.008393250405788422,100.0
 315,Steven Benda,0.0,0.0,0.0
 316,Antonee Robinson,0.029958970762379775,0.12520552179243696,100.0
