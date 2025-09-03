@@ -10,7 +10,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 9,Jakub Kiwior,0.017505728600786735,0.04163279439814511,100.0
 10,Myles Lewis-Skelly,0.016703723687311753,0.032768066507851794,100.0
 11,Benjamin White,0.0,0.0,0.0
-12,Oleksandr Zinchenko,0.08976971257477999,0.023158980198204518,100.0
 13,Brayden Clarke,0.0,0.0,0.0
 14,Maldini Kacurri,0.0,0.0,0.0
 15,Josh Nichols,0.0,0.0,0.0
@@ -25,7 +24,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 24,Christian Nørgaard,0.18105746967270192,0.06010253744959208,100.0
 25,Ethan Nwaneri,0.18099697781378657,0.11841445092833257,100.0
 26,Martín Zubimendi Ibáñez,0.0,0.0,0.0
-27,Reiss Nelson,0.25995931396537786,0.2072465601102155,100.0
 28,Ismeal Kabia,0.0,0.0,0.0
 29,Albert Sambi Lokonga,0.0,0.0,0.0
 30,Kai Havertz,0.5663594963583858,0.14116938303204926,100.0
@@ -35,6 +33,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 666,Viktor Gyökeres,0.0,0.0,0.0
 700,Max Dowman,0.0,0.0,0.0
 711,Andre Harriman-Annous,0.0,0.0,0.0
+725,Piero Hincapié,0.0,0.0,0.0
 32,Emiliano Martínez Romero,0.0,0.0,0.0
 33,Marco Bizot,0.0,0.0,0.0
 34,Joe Gauci,0.0,0.0,0.0
@@ -68,6 +67,8 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 63,Kadan Young,0.0,0.0,0.0
 64,Ollie Watkins,0.6290027192903477,0.1308613565777668,100.0
 65,Zépiqueno Redmond,0.0,0.0,0.0
+389,Harvey Elliott,0.4690908677293919,0.3598238258273341,100.0
+456,Jadon Sancho,0.1236186598596925,0.2206192420456897,100.0
 677,Evann Guessand,0.0,0.0,0.0
 688,James Wright,0.0,0.0,0.0
 701,Triston Rowe,0.0,0.0,0.0
@@ -115,6 +116,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 470,Martin Dúbravka,0.0,0.0,93.33333333333333
 676,Lesley Ugochukwu,0.0,0.0,0.0
 680,Armando Broja,0.029941334798457515,0.05009551633410393,100.0
+722,Florentino Ibrain Morris Luís,0.0,0.0,0.0
 66,Norberto Murara Neto,0.0,0.0,90.0
 67,Đorđe Petrović,0.0,0.0,0.0
 68,Will Dennis,0.0,0.0,0.0
@@ -153,7 +155,9 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 685,Bafodé Diakité,0.0,0.0,0.0
 687,Remy Rees-Dottin,0.0,0.0,0.0
 697,Amine Adli,0.0,0.0,0.0
-713,Álex Jiménez,0.0,0.0,0.0
+713,Álex Jiménez Sánchez,0.0,0.0,0.0
+721,Veljko Milosavljevic,0.0,0.0,0.0
+27,Reiss Nelson,0.25995931396537786,0.2072465601102155,100.0
 83,Dango Ouattara,0.48883816374440836,0.26778709690257263,100.0
 101,Caoimhín Kelleher,0.0,0.0,94.11764705882352
 102,Ellery Balcombe,0.0,0.0,0.0
@@ -188,7 +192,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 132,Paris Maghoma,0.0,0.0,0.0
 133,Myles Peart-Harris,0.0,0.0,0.0
 134,Ryan Trevitt,0.0,0.0,0.0
-135,Yoane Wissa,0.6339773556234639,0.10548850504356785,100.0
 136,Igor Thiago Nascimento Rodrigues,0.0,0.0,0.0
 137,Iwan Morgan,0.0,0.0,0.0
 138,Jason Steele,0.0,0.0,100.0
@@ -202,7 +205,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 146,Lewis Dunk,0.04783123290766275,0.022329446464862835,100.0
 147,Pervis Estupiñán Tenorio,0.04935581119306472,0.08688596311256215,90.0
 148,Ferdi Kadıoğlu,0.0,0.0,0.0
-149,Igor Julio dos Santos de Paulo,0.007836288996856578,0.01339800024601292,90.0
 150,Tariq Lamptey,0.035083616280864025,0.0927488427480747,100.0
 151,Jan Paul van Hecke,0.030391285910317013,0.04736088371001169,100.0
 152,Joël Veltman,0.04188520511092842,0.03973677789177333,100.0
@@ -221,7 +223,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 165,Abdallah Sima,0.0,0.0,0.0
 166,Yasin Ayari,0.10171282222446434,0.14178547660547433,100.0
 167,Carlos Baleba,0.09548123761049013,0.05392507314380364,100.0
-168,Facundo Buonanotte,0.2620066905292236,0.2014317035113022,100.0
 169,Diego Gómez Amarilla,0.16213411201380606,0.29239693151698953,90.0
 170,James Milner,0.0,0.0,0.0
 171,Jeremy Sarmiento Morante,0.0,0.0,0.0
@@ -235,6 +236,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 179,Evan Ferguson,0.3909549534408228,0.20927393694252563,100.0
 180,Stefanos Tzimas,0.0,0.0,0.0
 181,Charalampos Kostoulas,0.0,0.0,0.0
+168,Facundo Buonanotte,0.2620066905292236,0.2014317035113022,100.0
 220,Robert Lynch Sánchez,0.0,0.0005058759707026184,95.0
 221,Filip Jörgensen,0.0,0.0,93.33333333333333
 222,Mike Penders,0.0,0.0,0.0
@@ -266,6 +268,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 249,João Pedro Junqueira de Jesus,0.4039111079011537,0.25603378514134434,90.0
 250,Liam Delap,0.402017365074122,0.09382287250257797,100.0
 251,Nicolas Jackson,0.5427490757922817,0.13623179928760948,100.0
+252,Marc Guiu Paz,0.0,0.0,0.0
 453,Alejandro Garnacho Ferreyra,0.3904331670320757,0.14341721110908753,90.0
 672,Jorrel Hato,0.0,0.0,0.0
 253,Dean Henderson,0.0002875702308588906,0.0027860649126140694,100.0
@@ -303,6 +306,8 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 286,Zach Marsh,0.0,0.0,0.0
 690,Rio Cardines,0.0,0.0,0.0
 712,Yéremy Pino Santos,0.0,0.0,0.0
+723,Jaydee Canvot,0.0,0.0,0.0
+732,Christantus Uche,0.0,0.0,0.0
 242,Kiernan Dewsbury-Hall,0.034398267475458294,0.3098725785429661,100.0
 287,Jordan Pickford,0.0,0.007372137649278892,100.0
 288,Mark Travers,0.0,0.0,100.0
@@ -337,6 +342,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 704,Tyler Onyango,0.0,0.0,0.0
 705,Elijah Campbell,0.0,0.0,0.0
 707,Tyler Dibling,0.14960175323029679,0.09579127867736162,100.0
+728,Merlin Röhl,0.0,0.0,0.0
 314,Bernd Leno,0.0,0.008393250405788422,100.0
 315,Steven Benda,0.0,0.0,0.0
 316,Antonee Robinson,0.029958970762379775,0.12520552179243696,100.0
@@ -363,6 +369,8 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 337,Raúl Jiménez Rodríguez,0.5122411087359932,0.14505188412455078,90.0
 338,Rodrigo Muniz Carvalho,0.6675151631098701,0.07623724283856581,90.0
 664,Benjamin Lecomte,0.0,0.0,0.0
+727,Samuel Chukwueze,0.0,0.0,0.0
+731,Kevin Santos Lopes de Macedo,0.0,0.0,0.0
 339,Illan Meslier,0.0,0.0,0.0
 340,Alex Cairns,0.0,0.0,0.0
 341,Karl Darlow,0.0,0.0,0.0
@@ -419,7 +427,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 386,Alexis Mac Allister,0.12253312329352697,0.16796884543764504,100.0
 387,Dominik Szoboszlai,0.2504053209590718,0.2807692082176586,100.0
 388,Curtis Jones,0.23928230404073653,0.09165310749481798,100.0
-389,Harvey Elliott,0.4690908677293919,0.3598238258273341,100.0
 390,Ryan Gravenberch,0.03747121438793966,0.06795503289641701,100.0
 392,Endo Wataru,0.0,0.02669649511839436,95.0
 393,Stefan Bajčetić Maquieira,0.0,0.0,0.0
@@ -428,6 +435,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 396,Trey Nyoni,0.0,0.0,0.0
 397,Darwin Núñez Ribeiro,0.5803199312406411,0.1462699718071398,90.0
 398,Jayden Danns,0.0,0.0,0.0
+499,Alexander Isak,0.713015211261624,0.17377155971885636,100.0
 661,Hugo Ekitiké,0.0,0.0,0.0
 686,Rio Ngumoha,0.0,0.0,0.0
 692,Giovanni Leoni,0.0,0.0,0.0
@@ -462,6 +470,7 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 428,Sverre Nypan,0.0,0.0,0.0
 429,Kalvin Phillips,0.03314982888340329,0.023322953157718408,100.0
 430,Erling Haaland,0.7842536756979548,0.11724643943517608,100.0
+736,Gianluigi Donnarumma,0.0,0.0,0.0
 119,Bryan Mbeumo,0.3588460169080999,0.2731453592317796,100.0
 431,Altay Bayındır,0.0,0.0,0.0
 432,André Onana,0.0,0.009255470598445219,100.0
@@ -487,7 +496,6 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 452,Amad Diallo,0.22635158451958096,0.22683230745465466,90.0
 454,Antony dos Santos,0.0,0.0,0.0
 455,Mason Mount,0.4226087000125799,0.048243910752641506,100.0
-456,Jadon Sancho,0.1236186598596925,0.2206192420456897,100.0
 457,Carlos Henrique Casimiro,0.0,0.0,0.0
 458,Kobbie Mainoo,0.040381713949862015,0.11089993715959501,100.0
 459,Manuel Ugarte Ribeiro,0.05431198661776878,0.08071475429201992,90.0
@@ -501,7 +509,9 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 467,Chido Obi,0.0,0.0,0.0
 468,Ethan Wheatley,0.0,0.0,0.0
 681,Benjamin Sesko,0.0,0.0,0.0
+733,Senne Lammens,0.0,0.0,0.0
 52,Jacob Ramsey,0.07859670320475423,0.15628222038818373,100.0
+135,Yoane Wissa,0.6339773556234639,0.10548850504356785,100.0
 469,Nick Pope,0.0,0.0027529291276420865,100.0
 471,Mark Gillespie,0.0,0.0,0.0
 472,Odysseas Vlachodimos,0.0,0.0,0.0
@@ -530,13 +540,13 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 496,Garang Kuol,0.0,0.0,0.0
 497,Lewis Miley,0.06699102121765596,0.029360610094383687,100.0
 498,Joe White,0.0,0.0,0.0
-499,Alexander Isak,0.713015211261624,0.17377155971885636,100.0
 500,William Osula,0.0,0.0,0.0
 501,Sean Neave,0.0,0.0,0.0
 674,Aaron Ramsdale,0.0,0.0,100.0
 684,Malick Thiaw,0.0,0.0,0.0
 689,Seung-Soo Park,0.0,0.0,0.0
 714,Nick Woltemade,0.0,0.0,0.0
+12,Oleksandr Zinchenko,0.08976971257477999,0.023158980198204518,100.0
 426,James McAtee,0.6774622258727502,0.22550414297238125,100.0
 502,Matz Sels,0.0,0.013735954453678508,100.0
 503,Carlos Miguel dos Santos Pereira,0.0,0.0,0.0
@@ -571,7 +581,8 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 699,Douglas Luiz Soares de Paulo,0.0,0.0,0.0
 715,John Victor Maciel Furtado,0.0,0.0,0.0
 716,Nicolò Savona,0.0,0.0,0.0
-252,Marc Guiu Paz,0.0,0.0,0.0
+729,Luis Eduardo Soares da Silva,0.0,0.0,0.0
+734,Dilane Bakwa,0.0,0.0,0.0
 528,Anthony Patterson,0.0,0.0,0.0
 529,Simon Moore,0.0,0.0,0.0
 530,Blondy Nna Noukeu,0.0,0.0,0.0
@@ -614,6 +625,9 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 678,Arthur Masuaku,0.0,0.0,0.0
 683,Omar Alderete,0.0,0.0,0.0
 694,Nordi Mukiele,0.0,0.0,0.0
+724,Lutsharel Geertruida,0.0,0.0,0.0
+730,Brian Brobbey,0.0,0.0,0.0
+735,Bertrand Traoré,0.0,0.0,0.0
 565,Guglielmo Vicario,0.0,0.0,100.0
 566,Brandon Austin,0.0,0.0,0.0
 567,Antonín Kinský,0.0,0.03672437369823456,92.85714285714286
@@ -651,6 +665,8 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 599,Dane Scarlett,0.0,0.0,0.0
 673,João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,0.0,0.0,0.0
 717,Xavi Simons,0.0,0.0,0.0
+726,Randal Kolo Muani,0.0,0.0,0.0
+149,Igor Julio dos Santos de Paulo,0.007836288996856578,0.01339800024601292,90.0
 600,Alphonse Areola,0.0,0.0,100.0
 601,Wes Foderingham,0.0,0.0,0.0
 602,Krisztián Hegyi,0.0,0.0,0.0
@@ -718,3 +734,4 @@ fpl_id,fpl_name,xg_per90,xa_per90,match_score
 682,David Møller Wolfe,0.0,0.0,0.0
 695,Jackson Tchatchoua,0.0,0.0,0.0
 709,Ladislav Krejcí,0.0,0.0,0.0
+720,Tolu Arokodare,0.0,0.0,0.0
