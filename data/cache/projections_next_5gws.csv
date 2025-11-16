@@ -30,7 +30,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 31,G.Jesus,Arsenal,FWD,6.4,12.12,171.99
 266,Eze,Arsenal,MID,7.6,25.97,340.19622000000004
 662,Mosquera,Arsenal,DEF,5.4,22.92,340.53507499999995
-666,Gyökeres,Arsenal,FWD,8.9,10.0,91.29085333333335
+666,Gyökeres,Arsenal,FWD,8.9,10.0,91.2847
 700,Dowman,Arsenal,MID,4.3,13.23,309.66624
 711,Harriman-Annous,Arsenal,MID,4.5,13.23,309.582
 725,Hincapie,Arsenal,DEF,5.4,22.92,378.3208333333333
@@ -76,7 +76,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 703,Proctor,Aston Villa,GK,4.0,21.16,357.25860000000006
 710,Patterson,Aston Villa,DEF,3.9,21.16,337.43385
 719,Lindelöf,Aston Villa,DEF,4.5,21.45,374.85
-183,Weiss,Burnley,GK,4.4,20.74,357.2343
+183,Weiss,Burnley,GK,4.3,20.74,357.2343
 184,Green,Burnley,GK,4.0,20.74,0.0
 185,Hladký,Burnley,GK,4.0,20.74,357.25860000000006
 186,Roberts,Burnley,DEF,4.4,20.74,0.0
@@ -84,7 +84,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 188,Delcroix,Burnley,DEF,3.9,20.74,337.41089999999997
 189,Dodgson,Burnley,DEF,4.0,20.74,0.0
 190,Ekdal,Burnley,DEF,4.0,20.74,338.867885
-191,Estève,Burnley,DEF,4.0,20.74,360.24989000000005
+191,Estève,Burnley,DEF,3.9,20.74,360.24989000000005
 192,Hartman,Burnley,DEF,4.0,20.74,361.3511500000001
 193,Humphreys,Burnley,DEF,4.0,20.74,374.8755
 194,Jordan,Burnley,DEF,4.0,20.74,0.0
@@ -192,7 +192,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 132,Maghoma,Brentford,MID,4.5,12.82,343.98
 133,Peart-Harris,Brentford,MID,4.4,12.82,309.582
 134,Trevitt,Brentford,MID,4.5,12.82,0.0
-136,Thiago,Brentford,FWD,6.3,10.0,352.25853
+136,Thiago,Brentford,FWD,6.3,10.0,352.28231999999997
 137,Morgan,Brentford,FWD,4.4,10.0,309.66624
 748,Dasilva,Brentford,MID,5.0,12.82,309.582
 138,Steele,Brighton,GK,4.3,22.25,357.28290000000004
@@ -228,7 +228,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 170,Milner,Brighton,MID,4.9,13.06,87.91198
 171,Sarmiento,Brighton,MID,4.9,13.06,0.0
 172,Watson,Brighton,MID,4.9,13.06,347.16499999999996
-173,Wieffer,Brighton,MID,4.9,17.94,382.278
+173,Wieffer,Brighton,MID,4.9,17.94,382.304
 174,Yalcouye,Brighton,MID,5.0,13.06,0.0
 175,Knight,Brighton,MID,4.5,13.06,310.749738
 176,Mazilu,Brighton,MID,4.5,13.06,0.0
@@ -277,11 +277,11 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 253,Henderson,Crystal Palace,GK,5.0,22.86,389.004525
 254,Benitez,Crystal Palace,GK,4.0,22.8,396.981
 255,Matthews,Crystal Palace,GK,3.9,22.8,357.2343
-256,Muñoz,Crystal Palace,DEF,5.7,32.02,378.95550000000003
-257,Lacroix,Crystal Palace,DEF,5.0,26.61,368.30262
+256,Muñoz,Crystal Palace,DEF,5.7,32.02,378.981
+257,Lacroix,Crystal Palace,DEF,5.0,26.61,368.32761
 258,Mitchell,Crystal Palace,DEF,5.0,28.07,369.17922500000003
 259,Sosa,Crystal Palace,DEF,4.8,22.8,338.637535
-260,Guéhi,Crystal Palace,DEF,5.1,26.49,311.75503125
+260,Guéhi,Crystal Palace,DEF,5.1,26.49,311.7343125
 261,Richards,Crystal Palace,DEF,4.5,26.15,409.11406666666664
 262,Chadi Riad,Crystal Palace,DEF,4.0,22.8,374.85
 263,Clyne,Crystal Palace,DEF,3.9,23.46,337.4568
@@ -424,7 +424,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 378,Nallo,Liverpool,DEF,3.8,23.35,374.952
 379,R.Williams,Liverpool,DEF,3.8,23.35,337.41089999999997
 380,Ramsay,Liverpool,DEF,3.8,23.35,337.43385
-381,M.Salah,Liverpool,MID,14.2,41.44,343.74639
+381,M.Salah,Liverpool,MID,14.2,41.43,343.72338
 382,Wirtz,Liverpool,MID,8.0,13.34,319.718295
 383,Luis Díaz,Liverpool,MID,8.0,13.34,0.0
 384,Gakpo,Liverpool,MID,7.5,28.79,330.82764000000003
@@ -458,7 +458,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 408,Rúben,Man City,DEF,5.5,23.16,366.57270000000005
 409,Stones,Man City,DEF,5.4,27.35,378.50098611111105
 410,Lewis,Man City,DEF,4.8,26.19,376.64784444444444
-411,O’Reilly,Man City,DEF,5.0,23.16,429.5494833333333
+411,O’Reilly,Man City,DEF,5.0,23.16,429.5786666666666
 412,Vitor Reis,Man City,DEF,5.0,23.16,0.0
 413,Marmoush,Man City,MID,8.3,28.2,349.6934133333333
 414,Foden,Man City,MID,8.0,26.84,362.9236
@@ -480,7 +480,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 739,Mukasa,Man City,MID,4.5,13.29,309.582
 740,Mfuni,Man City,DEF,4.0,23.16,337.36500000000007
 742,McAidoo,Man City,MID,4.5,13.29,309.582
-119,Mbeumo,Man Utd,MID,8.5,29.46,364.47645
+119,Mbeumo,Man Utd,MID,8.5,29.46,364.500708
 431,Bayindir,Man Utd,GK,4.8,22.73,357.28290000000004
 432,Onana,Man Utd,GK,4.9,22.73,0.0
 433,Harrison,Man Utd,GK,4.0,22.73,0.0
@@ -529,7 +529,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 475,Botman,Newcastle,DEF,4.9,29.57,345.00275999999997
 476,Burn,Newcastle,DEF,5.2,21.88,0.0
 477,Livramento,Newcastle,DEF,4.9,21.88,187.76925
-478,Trippier,Newcastle,DEF,5.0,24.48,381.05027777777786
+478,Trippier,Newcastle,DEF,5.0,24.48,381.0244
 479,Krafth,Newcastle,DEF,4.3,22.4,337.36500000000007
 480,Lascelles,Newcastle,DEF,4.3,21.88,337.38795000000005
 481,A.Murphy,Newcastle,DEF,3.9,21.88,337.5027
@@ -654,7 +654,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 579,Son,Spurs,MID,8.5,12.74,0.0
 580,Johnson,Spurs,MID,6.7,25.16,318.83085
 581,Maddison,Spurs,MID,6.8,12.74,0.0
-582,Kudus,Spurs,MID,6.5,16.96,179.352875
+582,Kudus,Spurs,MID,6.5,16.96,179.34085
 583,Kulusevski,Spurs,MID,6.4,12.74,0.0
 584,Tel,Spurs,MID,6.3,22.59,321.06984000000006
 585,Bentancur,Spurs,MID,5.3,14.75,339.485952
@@ -728,7 +728,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 639,Meupiyou,Wolves,DEF,4.0,20.82,0.0
 640,Pedro Lima,Wolves,DEF,4.0,20.82,0.0
 641,Pond,Wolves,DEF,3.9,20.82,337.6863
-642,Hee Chan,Wolves,MID,5.8,16.62,349.09974666666665
+642,Hee Chan,Wolves,MID,5.7,16.62,349.09974666666665
 643,André,Wolves,MID,5.3,12.7,356.7442666666666
 644,Bellegarde,Wolves,MID,5.2,19.02,351.624
 645,Fer López,Wolves,MID,5.2,12.7,310.7286
@@ -746,7 +746,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 657,Chiwome,Wolves,FWD,4.4,10.0,0.0
 658,Fraser,Wolves,FWD,4.4,10.0,309.96108000000004
 663,J.Arias,Wolves,MID,5.1,12.7,316.504656
-682,Møller Wolfe,Wolves,DEF,4.4,20.82,338.637535
+682,Møller Wolfe,Wolves,DEF,4.3,20.82,338.637535
 695,Tchatchoua,Wolves,DEF,4.5,20.82,344.862
 709,Krejčí,Wolves,DEF,4.5,20.82,344.8854600000001
 720,Tolu,Wolves,FWD,5.5,10.0,314.189772
