@@ -82,7 +82,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 768,Leon Routh,Aston Villa,DEF,4.0,22.36,337.36500000000007
 781,Carroll,Aston Villa,DEF,4.0,22.36,337.36500000000007
 792,Alysson,Aston Villa,MID,5.0,13.09,347.16499999999996
-808,Abraham,Aston Villa,FWD,6.0,10.0,315.35790000000003
+808,Abraham,Aston Villa,FWD,5.9,10.0,315.35790000000003
 183,Weiss,Burnley,GK,4.3,20.01,357.2343
 184,Green,Burnley,GK,4.0,20.01,0.0
 185,Hladký,Burnley,GK,3.9,20.01,357.25860000000006
@@ -269,7 +269,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 223,Slonina,Chelsea,GK,3.9,22.3,357.2343
 224,Cucurella,Chelsea,DEF,6.0,22.3,385.4797222222222
 225,James,Chelsea,DEF,5.6,22.3,197.08926388888892
-226,Chalobah,Chelsea,DEF,5.5,22.3,0.0
+226,Chalobah,Chelsea,DEF,5.4,22.3,0.0
 227,Colwill,Chelsea,DEF,4.7,22.3,0.0
 228,Gusto,Chelsea,DEF,4.9,22.3,389.23577777777774
 229,B.Badiashile,Chelsea,DEF,4.4,22.3,281.1375
@@ -357,7 +357,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 296,Patterson,Everton,DEF,4.4,20.64,374.85
 297,Dixon,Everton,DEF,3.8,20.64,0.0
 298,Welch,Everton,DEF,3.8,20.64,337.38795000000005
-299,Ndiaye,Everton,MID,6.2,12.66,380.12368333333336
+299,Ndiaye,Everton,MID,6.2,12.66,285.09276250000005
 300,McNeil,Everton,MID,5.5,12.66,333.70599599999997
 301,Alcaraz,Everton,MID,5.2,12.66,86.00085
 302,Gana,Everton,MID,5.4,12.66,370.75921999999997
@@ -582,7 +582,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 482,Ashby,Newcastle,DEF,3.9,21.2,0.0
 483,Pivas,Newcastle,DEF,3.8,21.2,337.4568
 484,Targett,Newcastle,DEF,4.0,21.2,0.0
-485,Gordon,Newcastle,MID,7.4,12.8,393.70045
+485,Gordon,Newcastle,MID,7.4,12.8,393.7270999999999
 486,Elanga,Newcastle,MID,6.5,12.8,354.18435
 487,Barnes,Newcastle,MID,6.1,12.8,320.162544
 488,Bruno G.,Newcastle,MID,6.8,12.8,172.5165
