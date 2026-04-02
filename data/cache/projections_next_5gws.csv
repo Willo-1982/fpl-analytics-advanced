@@ -3,7 +3,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 2,Arrizabalaga,Arsenal,GK,4.0,17.88,285.84576
 3,Hein,Arsenal,GK,4.0,17.88,0.0
 4,Setford,Arsenal,GK,3.9,17.88,285.80688000000004
-5,Gabriel,Arsenal,DEF,7.2,17.88,274.3754666666666
+5,Gabriel,Arsenal,DEF,7.2,17.88,274.3573333333333
 6,Saliba,Arsenal,DEF,6.1,17.88,250.0428
 7,Calafiori,Arsenal,DEF,5.6,17.88,320.62
 8,J.Timber,Arsenal,DEF,6.3,17.88,258.69693333333333
@@ -100,7 +100,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 197,Sonne,Burnley,DEF,3.8,20.01,0.0
 198,Tuanzebe,Burnley,DEF,3.9,20.01,375.0795
 199,Worrall,Burnley,DEF,3.8,20.01,383.92639444444444
-200,Anthony,Burnley,MID,5.0,12.5,363.58400000000006
+200,Anthony,Burnley,MID,5.0,12.5,363.5593
 201,Benson,Burnley,MID,5.4,12.5,0.0
 202,Bruun Larsen,Burnley,MID,5.2,12.5,343.98
 203,Boateng,Burnley,MID,4.7,12.5,309.582
@@ -361,7 +361,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 300,McNeil,Everton,MID,5.5,12.66,330.83910599999996
 301,Alcaraz,Everton,MID,5.2,12.66,86.00085
 302,Gana,Everton,MID,5.4,12.66,375.8555666666667
-303,Garner,Everton,MID,5.2,12.66,349.01103900000004
+303,Garner,Everton,MID,5.3,12.66,349.01103900000004
 304,Iroegbunam,Everton,MID,4.8,12.66,354.80899999999997
 305,Armstrong,Everton,MID,4.5,12.66,345.91453
 306,Bates,Everton,MID,4.3,12.66,309.60306
@@ -560,7 +560,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 467,Obi,Man Utd,FWD,4.2,10.0,309.89790000000005
 468,Wheatley,Man Utd,FWD,4.5,10.0,0.0
 681,Šeško,Man Utd,FWD,7.4,10.0,360.31436999999994
-733,Lammens,Man Utd,GK,5.0,22.57,371.14559999999994
+733,Lammens,Man Utd,GK,5.1,22.57,371.14559999999994
 755,Lacey,Man Utd,MID,4.5,13.14,343.98
 769,Bendito Mantato,Man Utd,MID,4.5,13.14,309.582
 771,Fletcher,Man Utd,MID,4.4,13.14,309.582
