@@ -173,44 +173,44 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 801,Tóth.A,Bournemouth,MID,4.9,2.6,62.4897
 806,Mandas,Bournemouth,GK,4.0,4.41,71.44200000000001
 807,Rayan,Bournemouth,MID,5.4,2.6,68.32944300000001
-27,Nelson,Brentford,MID,4.8,2.54,70.07476666666666
-83,O.Dango,Brentford,MID,5.6,2.54,75.24781333333334
-101,Kelleher,Brentford,GK,4.8,4.15,86.2524
+27,Nelson,Brentford,MID,4.8,2.54,69.05549733333332
+83,O.Dango,Brentford,MID,5.6,2.54,76.5232
+101,Kelleher,Brentford,GK,4.8,4.15,87.1416
 102,Balcombe,Brentford,GK,3.9,4.15,71.45172000000001
 103,Cox,Brentford,GK,3.9,4.15,0.0
 104,Eyestone,Brentford,GK,3.9,4.15,71.44686
 105,Valdimarsson,Brentford,GK,3.8,4.15,71.4906
-106,Collins,Brentford,DEF,4.9,4.15,71.33778000000001
-107,Lewis-Potter,Brentford,DEF,4.8,4.15,72.29479500000001
-108,Ajer,Brentford,DEF,4.4,4.15,76.64642666666667
+106,Collins,Brentford,DEF,4.9,4.15,71.58808800000001
+107,Lewis-Potter,Brentford,DEF,4.8,4.15,73.1703375
+108,Ajer,Brentford,DEF,4.4,4.15,77.06298333333334
 109,Henry,Brentford,DEF,4.3,4.15,0.0
-110,Kayode,Brentford,DEF,4.6,4.15,77.5217
+110,Kayode,Brentford,DEF,4.6,4.15,77.79955555555556
 111,Pinnock,Brentford,DEF,4.2,4.15,74.9751
 112,Roerslev,Brentford,DEF,4.5,4.15,0.0
-113,Van den Berg,Brentford,DEF,4.4,4.15,78.91097777777779
+113,Van den Berg,Brentford,DEF,4.4,4.15,79.88347222222224
 114,Arthur,Brentford,DEF,3.8,4.15,0.0
 115,Fredrick,Brentford,DEF,4.0,4.15,0.0
-116,Hickey,Brentford,DEF,4.0,4.15,76.09619333333333
+116,Hickey,Brentford,DEF,4.0,4.15,76.37391666666667
 117,Ji-soo,Brentford,DEF,3.9,4.15,0.0
 118,Meghoma,Brentford,DEF,4.0,4.15,0.0
-120,Schade,Brentford,MID,6.8,2.54,72.68222000000002
-121,Damsgaard,Brentford,MID,5.6,2.54,73.93221333333334
+120,Schade,Brentford,MID,6.8,2.54,72.93724533333334
+121,Damsgaard,Brentford,MID,5.6,2.54,74.56956000000001
 122,Milambo,Brentford,MID,5.2,2.54,0.0
 123,Carvalho,Brentford,MID,4.6,2.54,0.0
 124,Henderson,Brentford,MID,5.0,2.54,69.06489199999999
-125,Janelt,Brentford,MID,4.9,2.54,69.81994933333333
-126,Jensen,Brentford,MID,4.9,2.54,66.7366596
+125,Janelt,Brentford,MID,4.9,2.54,70.07476666666666
+126,Jensen,Brentford,MID,4.9,2.54,65.1313104
 127,Nunes,Brentford,MID,4.9,2.54,0.0
 128,Onyeka,Brentford,MID,4.8,2.54,0.0
-129,Yarmoliuk,Brentford,MID,5.0,2.54,73.13257466666667
+129,Yarmoliuk,Brentford,MID,5.0,2.54,72.87775733333334
 130,Donovan,Brentford,MID,4.4,2.54,61.920612000000006
 131,Konak,Brentford,MID,4.3,2.54,0.0
 132,Maghoma,Brentford,MID,4.5,2.54,0.0
 133,Peart-Harris,Brentford,MID,4.4,2.54,0.0
 134,Trevitt,Brentford,MID,4.5,2.54,0.0
-136,Thiago,Brentford,FWD,7.2,2.0,73.58981066666666
+136,Thiago,Brentford,FWD,7.2,2.0,74.10988
 137,Morgan,Brentford,FWD,4.4,2.0,0.0
-748,Dasilva,Brentford,MID,4.9,2.54,69.3056
+748,Dasilva,Brentford,MID,4.9,2.54,69.43299999999999
 797,Furo,Brentford,FWD,4.5,2.0,69.0508
 810,Bentt,Brentford,MID,4.5,2.54,61.9164
 819,Shield,Brentford,DEF,4.0,4.15,67.47300000000001
@@ -532,33 +532,33 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 763,Gray,Man City,MID,4.5,2.65,61.9164
 764,Heskey,Man City,MID,4.5,2.65,61.9164
 794,Alleyne,Man City,DEF,3.9,4.61,74.97
-119,Mbeumo,Man Utd,MID,8.3,2.56,75.1608
+119,Mbeumo,Man Utd,MID,8.3,2.56,75.6756
 431,Bayindir,Man Utd,GK,4.7,4.25,71.45658
 432,Onana,Man Utd,GK,4.9,4.25,0.0
 433,Harrison,Man Utd,GK,4.0,4.25,0.0
 434,Heaton,Man Utd,GK,3.8,4.25,71.47116
 435,Mee,Man Utd,GK,3.9,4.25,71.44686
 436,De Ligt,Man Utd,DEF,4.9,4.25,0.0
-437,Martinez,Man Utd,DEF,4.8,4.25,79.15653333333333
-438,Mazraoui,Man Utd,DEF,4.9,4.25,79.98432
+437,Martinez,Man Utd,DEF,4.8,4.25,80.26750222222222
+438,Mazraoui,Man Utd,DEF,4.9,4.25,80.81749
 439,D.Leon,Man Utd,DEF,4.1,4.25,67.47759
-440,Dalot,Man Utd,DEF,4.5,4.25,76.83410666666667
-441,Dorgu,Man Utd,DEF,4.1,4.25,80.93292000000001
-442,Maguire,Man Utd,DEF,4.4,4.25,82.56237
+440,Dalot,Man Utd,DEF,4.5,4.25,75.85976111111111
+441,Dorgu,Man Utd,DEF,4.1,4.25,82.32352000000002
+442,Maguire,Man Utd,DEF,4.4,4.25,82.00639444444445
 443,Shaw,Man Utd,DEF,4.5,4.25,81.97296111111112
-444,Yoro,Man Utd,DEF,4.1,4.25,75.86488000000001
+444,Yoro,Man Utd,DEF,4.1,4.25,75.72593333333333
 445,Amass,Man Utd,DEF,4.0,4.25,0.0
 446,Fredricson,Man Utd,DEF,3.7,4.25,67.48218
-447,Heaven,Man Utd,DEF,3.7,4.25,75.93707333333334
+447,Heaven,Man Utd,DEF,3.7,4.25,75.38075777777777
 448,Malacia,Man Utd,DEF,3.7,4.25,67.750542
-449,B.Fernandes,Man Utd,MID,10.4,2.56,80.51472
-450,Cunha,Man Utd,MID,8.1,2.56,73.816704
+449,B.Fernandes,Man Utd,MID,10.4,2.56,81.30408
+450,Cunha,Man Utd,MID,8.1,2.56,74.97009000000001
 451,Rashford,Man Utd,MID,7.0,2.56,0.0
-452,Amad,Man Utd,MID,6.2,2.56,72.42719466666667
+452,Amad,Man Utd,MID,6.2,2.56,72.93724533333334
 454,Antony,Man Utd,MID,5.9,2.56,0.0
-455,Mount,Man Utd,MID,5.9,2.56,71.613412
-457,Casemiro,Man Utd,MID,5.8,2.56,73.31663733333335
-458,Mainoo,Man Utd,MID,4.7,2.56,74.98254399999999
+455,Mount,Man Utd,MID,5.9,2.56,71.99569
+457,Casemiro,Man Utd,MID,5.8,2.56,70.50659200000001
+458,Mainoo,Man Utd,MID,4.7,2.56,75.23758666666667
 459,Ugarte,Man Utd,MID,4.7,2.56,68.80068
 460,Collyer,Man Utd,MID,4.5,2.56,0.0
 461,Fitzgerald,Man Utd,MID,4.3,2.56,61.9164
@@ -566,11 +566,11 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 463,Kone,Man Utd,MID,4.3,2.56,0.0
 464,Moorhouse,Man Utd,MID,4.5,2.56,0.0
 465,Højlund,Man Utd,FWD,6.3,2.0,0.0
-466,Zirkzee,Man Utd,FWD,5.8,2.0,69.83419733333332
+466,Zirkzee,Man Utd,FWD,5.8,2.0,70.08906666666667
 467,Obi,Man Utd,FWD,4.2,2.0,61.975368
 468,Wheatley,Man Utd,FWD,4.5,2.0,0.0
-681,Šeško,Man Utd,FWD,7.2,2.0,36.16702266666667
-733,Lammens,Man Utd,GK,5.1,4.25,77.18716799999999
+681,Šeško,Man Utd,FWD,7.2,2.0,35.272432
+733,Lammens,Man Utd,GK,5.1,4.25,77.58504
 755,Lacey,Man Utd,MID,4.5,2.56,69.0508
 769,Bendito Mantato,Man Utd,MID,4.5,2.56,61.9164
 771,Fletcher,Man Utd,MID,4.4,2.56,62.14572
