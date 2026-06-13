@@ -307,41 +307,41 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 253,Henderson,Crystal Palace,GK,5.1,3.58,73.2105
 254,Benitez,Crystal Palace,GK,3.9,3.58,79.3962
 255,Matthews,Crystal Palace,GK,3.9,3.58,71.44686
-256,Muñoz,Crystal Palace,DEF,5.9,3.58,79.21116
-257,Lacroix,Crystal Palace,DEF,5.2,3.58,77.7036661111111
-258,Mitchell,Crystal Palace,DEF,5.0,3.58,69.2054615
+256,Muñoz,Crystal Palace,DEF,5.9,3.58,80.32877777777779
+257,Lacroix,Crystal Palace,DEF,5.2,3.58,76.72713888888889
+258,Mitchell,Crystal Palace,DEF,5.0,3.58,68.830025
 259,Sosa,Crystal Palace,DEF,4.8,3.58,56.231325
 261,Richards,Crystal Palace,DEF,4.4,3.58,0.0
-262,Chadi Riad,Crystal Palace,DEF,4.0,3.58,77.33542722222222
-263,Clyne,Crystal Palace,DEF,3.8,3.58,75.9676638888889
+262,Chadi Riad,Crystal Palace,DEF,4.0,3.58,78.44616944444445
+263,Clyne,Crystal Palace,DEF,3.8,3.58,75.68990277777777
 264,Holding,Crystal Palace,DEF,4.0,3.58,0.0
 265,Kporha,Crystal Palace,DEF,4.0,3.58,74.97
-267,Sarr,Crystal Palace,MID,6.4,2.4,72.89464000000001
+267,Sarr,Crystal Palace,MID,6.4,2.4,74.17349333333334
 268,Doucouré,Crystal Palace,MID,4.9,2.4,0.0
 269,Esse,Crystal Palace,MID,4.7,2.4,0.0
 270,Hughes,Crystal Palace,MID,4.7,2.4,70.07476666666666
-271,Kamada,Crystal Palace,MID,5.0,2.4,70.96662733333334
+271,Kamada,Crystal Palace,MID,5.0,2.4,71.98589666666666
 272,Lerma,Crystal Palace,MID,4.9,2.4,71.34885333333332
-273,Wharton,Crystal Palace,MID,5.0,2.4,74.30956866666666
+273,Wharton,Crystal Palace,MID,5.0,2.4,76.4764
 274,Agbinone,Crystal Palace,MID,4.3,2.4,61.920612000000006
 275,Ahamada,Crystal Palace,MID,4.3,2.4,0.0
-276,Devenny,Crystal Palace,MID,4.3,2.4,69.73994733333333
+276,Devenny,Crystal Palace,MID,4.3,2.4,70.12243333333333
 277,Ebiowei,Crystal Palace,MID,4.5,2.4,0.0
 278,J.Rak-Sakyi,Crystal Palace,MID,4.4,2.4,0.0
 279,M.França,Crystal Palace,MID,4.5,2.4,0.0
 280,Ozoh,Crystal Palace,MID,4.5,2.4,0.0
 281,Rodney,Crystal Palace,MID,4.4,2.4,61.920612000000006
 282,Umeh,Crystal Palace,MID,4.5,2.4,0.0
-283,Mateta,Crystal Palace,FWD,7.6,2.0,72.63383400000001
+283,Mateta,Crystal Palace,FWD,7.6,2.0,73.65865
 284,Nketiah,Crystal Palace,FWD,5.4,2.0,0.0
 285,Édouard,Crystal Palace,FWD,5.0,2.0,0.0
 286,Marsh,Crystal Palace,FWD,4.4,2.0,61.929036
-580,Johnson,Crystal Palace,MID,6.5,2.4,63.16596000000001
-654,Strand Larsen,Crystal Palace,FWD,5.8,2.0,71.02938266666666
-677,Guessand,Crystal Palace,MID,6.2,2.4,69.6878
-690,Cardines,Crystal Palace,MID,4.4,2.4,69.702022
-712,Yeremy,Crystal Palace,MID,5.8,2.4,71.35370666666667
-723,Canvot,Crystal Palace,DEF,4.5,3.58,77.7731111111111
+580,Johnson,Crystal Palace,MID,6.5,2.4,62.591724
+654,Strand Larsen,Crystal Palace,FWD,5.8,2.0,71.41194666666667
+677,Guessand,Crystal Palace,MID,6.2,2.4,70.07
+690,Cardines,Crystal Palace,MID,4.4,2.4,70.0843
+712,Yeremy,Crystal Palace,MID,5.8,2.4,71.99079333333333
+723,Canvot,Crystal Palace,DEF,4.5,3.58,77.07870833333332
 732,Uche,Crystal Palace,FWD,5.5,2.0,61.920612000000006
 762,Drakes-Thomas,Crystal Palace,MID,4.5,2.4,61.9164
 773,Benamar,Crystal Palace,DEF,4.0,3.58,67.47300000000001
@@ -494,38 +494,38 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 760,Lucky,Liverpool,DEF,4.0,4.49,67.47300000000001
 830,Wright,Liverpool,FWD,4.5,2.0,61.9164
 832,Ndiaye,Liverpool,DEF,4.0,4.49,67.47300000000001
-82,Semenyo,Man City,MID,8.0,2.65,77.922572
-182,Trafford,Man City,GK,4.5,4.61,72.412407
-260,Guéhi,Man City,DEF,5.1,4.61,80.46423
+82,Semenyo,Man City,MID,8.0,2.65,75.5573
+182,Trafford,Man City,GK,4.5,4.61,72.80955
+260,Guéhi,Man City,DEF,5.1,4.61,78.05172222222222
 399,Ederson M.,Man City,GK,5.3,4.61,0.0
 401,Bettinelli,Man City,GK,3.8,4.61,79.4016
-402,Aït-Nouri,Man City,DEF,5.7,4.61,78.38117277777779
-403,Gvardiol,Man City,DEF,5.8,4.61,76.1071488888889
+402,Aït-Nouri,Man City,DEF,5.7,4.61,75.87520277777777
+403,Gvardiol,Man City,DEF,5.8,4.61,75.82887777777778
 404,Akanji,Man City,DEF,5.4,4.61,0.0
-405,Aké,Man City,DEF,5.2,4.61,68.375547
-406,Khusanov,Man City,DEF,5.4,4.61,78.755985
+405,Aké,Man City,DEF,5.2,4.61,68.12554499999999
+406,Khusanov,Man City,DEF,5.4,4.61,76.39469444444444
 407,Matheus N.,Man City,DEF,5.3,4.61,76.50897222222223
-408,Rúben,Man City,DEF,5.5,4.61,75.54547833333334
-409,Stones,Man City,DEF,5.4,4.61,76.80617
+408,Rúben,Man City,DEF,5.5,4.61,75.82373055555554
+409,Stones,Man City,DEF,5.4,4.61,77.08395
 410,Lewis,Man City,DEF,4.6,4.61,75.0312
-411,O'Reilly,Man City,DEF,5.3,4.61,76.93372666666667
+411,O'Reilly,Man City,DEF,5.3,4.61,77.35566666666668
 412,Vitor Reis,Man City,DEF,5.0,4.61,0.0
-413,Marmoush,Man City,MID,8.3,2.65,73.144214
-414,Foden,Man City,MID,8.0,2.65,75.56484
-415,Savinho,Man City,MID,6.9,2.65,73.91210666666667
-416,Bernardo,Man City,MID,6.2,2.65,70.99559133333332
-417,Cherki,Man City,MID,6.5,2.65,72.18848
-418,Doku,Man City,MID,6.5,2.65,70.76851599999999
+413,Marmoush,Man City,MID,8.3,2.65,69.56997666666666
+414,Foden,Man City,MID,8.0,2.65,71.08218000000001
+415,Savinho,Man City,MID,6.9,2.65,70.72624
+416,Bernardo,Man City,MID,6.2,2.65,70.10336666666666
+417,Cherki,Man City,MID,6.5,2.65,70.8994
+418,Doku,Man City,MID,6.5,2.65,71.02446
 420,Gündoğan,Man City,MID,6.3,2.65,0.0
-421,Rodrigo,Man City,MID,6.3,2.65,71.75059666666667
+421,Rodrigo,Man City,MID,6.3,2.65,73.27991666666667
 422,Kovačić,Man City,MID,5.8,2.65,70.07
-423,N.Gonzalez,Man City,MID,5.9,2.65,70.45699266666666
+423,N.Gonzalez,Man City,MID,5.9,2.65,71.34885333333332
 425,Echeverri,Man City,MID,5.4,2.65,0.0
-427,Reijnders,Man City,MID,5.0,2.65,64.2522894
+427,Reijnders,Man City,MID,5.0,2.65,65.175123
 428,Nypan,Man City,MID,5.0,2.65,68.796
 429,Phillips,Man City,MID,4.7,2.65,0.0
-430,Haaland,Man City,FWD,14.7,2.0,75.58200000000001
-736,Donnarumma,Man City,GK,5.6,4.61,75.88809
+430,Haaland,Man City,FWD,14.7,2.0,77.57100000000001
+736,Donnarumma,Man City,GK,5.6,4.61,72.559665
 739,Mukasa,Man City,MID,4.4,2.65,0.0
 740,Mfuni,Man City,DEF,3.9,4.61,0.0
 742,McAidoo,Man City,MID,4.5,2.65,61.9164
