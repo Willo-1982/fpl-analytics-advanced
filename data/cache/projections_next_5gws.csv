@@ -35,33 +35,33 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 711,Harriman-Annous,Arsenal,MID,4.4,2.62,61.9164
 725,Hincapie,Arsenal,DEF,5.1,4.46,77.099675
 759,Salmon,Arsenal,DEF,4.0,4.46,67.47300000000001
-32,Martinez,Aston Villa,GK,5.0,3.72,81.092
-33,M.Bizot,Aston Villa,GK,4.2,3.72,80.872
+32,Martinez,Aston Villa,GK,5.0,3.72,79.6176
+33,M.Bizot,Aston Villa,GK,4.2,3.72,82.3424
 34,Gauci,Aston Villa,GK,4.0,3.72,0.0
 35,Marschall,Aston Villa,GK,4.0,3.72,0.0
-36,Cash,Aston Villa,DEF,4.6,3.72,76.04506111111111
-37,Digne,Aston Villa,DEF,4.5,3.72,77.826
-38,Konsa,Aston Villa,DEF,4.4,3.72,76.02447222222222
-39,Maatsen,Aston Villa,DEF,4.2,3.72,71.24572500000001
-40,Mings,Aston Villa,DEF,4.3,3.72,77.77839999999999
-41,Pau,Aston Villa,DEF,4.3,3.72,78.45684166666666
-42,A.García,Aston Villa,DEF,3.9,3.72,75.6744611111111
+36,Cash,Aston Villa,DEF,4.6,3.72,76.74272222222223
+37,Digne,Aston Villa,DEF,4.5,3.72,75.0465
+38,Konsa,Aston Villa,DEF,4.4,3.72,75.327
+39,Maatsen,Aston Villa,DEF,4.2,3.72,73.745575
+40,Mings,Aston Villa,DEF,4.3,3.72,80.5562
+41,Pau,Aston Villa,DEF,4.3,3.72,76.37391666666667
+42,A.García,Aston Villa,DEF,3.9,3.72,76.36872222222222
 43,Alex Moreno,Aston Villa,DEF,4.0,3.72,0.0
-44,Bogarde,Aston Villa,DEF,4.0,3.72,76.38430555555556
+44,Bogarde,Aston Villa,DEF,4.0,3.72,77.7731111111111
 45,Sousa,Aston Villa,DEF,3.8,3.72,0.0
 46,Yasin,Aston Villa,DEF,4.0,3.72,0.0
-47,Rogers,Aston Villa,MID,7.3,2.43,77.4904
-48,Tielemans,Aston Villa,MID,5.9,2.43,70.74067
-49,Bailey,Aston Villa,MID,5.5,2.43,71.98589666666666
-50,Buendía,Aston Villa,MID,5.3,2.43,73.91210666666667
+47,Rogers,Aston Villa,MID,7.3,2.43,69.74136
+48,Tielemans,Aston Villa,MID,5.9,2.43,70.10336666666666
+49,Bailey,Aston Villa,MID,5.5,2.43,75.17111333333334
+50,Buendía,Aston Villa,MID,5.3,2.43,76.46079999999999
 51,Iling Jr,Aston Villa,MID,5.5,2.43,0.0
 53,Malen,Aston Villa,MID,5.1,2.43,0.0
-54,McGinn,Aston Villa,MID,5.3,2.43,73.28988333333332
-55,Barkley,Aston Villa,MID,4.8,2.43,72.62294
+54,McGinn,Aston Villa,MID,5.3,2.43,70.10336666666666
+55,Barkley,Aston Villa,MID,4.8,2.43,75.17111333333334
 56,Barrenechea,Aston Villa,MID,5.0,2.43,0.0
 57,Dobbin,Aston Villa,MID,5.0,2.43,0.0
 58,Kamara,Aston Villa,MID,4.9,2.43,0.0
-59,Onana,Aston Villa,MID,4.8,2.43,69.46133999999999
+59,Onana,Aston Villa,MID,4.8,2.43,70.09859999999999
 60,Broggio,Aston Villa,MID,4.4,2.43,0.0
 61,Dendoncker,Aston Villa,MID,4.5,2.43,0.0
 62,Jimoh-Aloba,Aston Villa,MID,4.5,2.43,0.0
@@ -69,14 +69,14 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 64,Watkins,Aston Villa,FWD,8.7,2.0,84.82760000000002
 65,Redmond,Aston Villa,FWD,4.5,2.0,0.0
 389,Elliott,Aston Villa,MID,5.1,2.43,68.80536000000001
-456,Sancho,Aston Villa,MID,5.8,2.43,69.44244666666665
+456,Sancho,Aston Villa,MID,5.8,2.43,68.80536000000001
 688,Wright,Aston Villa,GK,3.9,3.72,71.47116
-699,Douglas Luiz,Aston Villa,MID,4.9,2.43,70.71181
+699,Douglas Luiz,Aston Villa,MID,4.9,2.43,71.34885333333332
 701,Rowe,Aston Villa,DEF,4.0,3.72,0.0
 702,Burrowes,Aston Villa,MID,4.3,2.43,61.920612000000006
 703,Proctor,Aston Villa,GK,3.9,3.72,71.47116
 710,Patterson,Aston Villa,DEF,3.9,3.72,67.48218
-719,Lindelöf,Aston Villa,DEF,4.5,3.72,77.05774166666666
+719,Lindelöf,Aston Villa,DEF,4.5,3.72,77.75195555555555
 754,George Hemmings,Aston Villa,MID,4.5,2.43,61.9164
 757,Hollingshead,Aston Villa,GK,4.0,3.72,71.44200000000001
 768,Leon Routh,Aston Villa,DEF,4.0,3.72,67.47300000000001
@@ -455,35 +455,35 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 837,Lienou,Leeds,DEF,4.0,4.49,67.47300000000001
 838,Chadwick,Leeds,MID,4.5,2.62,61.9164
 839,Cresswell,Leeds,MID,4.5,2.62,61.9164
-366,A.Becker,Liverpool,GK,5.4,4.49,81.1305
-367,Mamardashvili,Liverpool,GK,4.1,4.49,80.15315
+366,A.Becker,Liverpool,GK,5.4,4.49,82.6056
+367,Mamardashvili,Liverpool,GK,4.1,4.49,79.4178
 368,Pécsi,Liverpool,GK,3.8,4.49,71.48574
 369,Woodman,Liverpool,GK,3.9,4.49,71.45658
-370,Frimpong,Liverpool,DEF,5.7,4.49,75.91638055555555
-371,Kerkez,Liverpool,DEF,5.6,4.49,75.8134361111111
-372,Robertson,Liverpool,DEF,5.7,4.49,68.7786
-373,Virgil,Liverpool,DEF,6.1,4.49,79.12905
-374,Konaté,Liverpool,DEF,5.4,4.49,75.85976111111111
+370,Frimpong,Liverpool,DEF,5.7,4.49,76.61286111111112
+371,Kerkez,Liverpool,DEF,5.6,4.49,76.50897222222223
+372,Robertson,Liverpool,DEF,5.7,4.49,70.02912
+373,Virgil,Liverpool,DEF,6.1,4.49,71.4714
+374,Konaté,Liverpool,DEF,5.4,4.49,76.55572222222223
 375,Bradley,Liverpool,DEF,4.9,4.49,0.0
-376,Gomez,Liverpool,DEF,4.9,4.49,75.6744611111111
+376,Gomez,Liverpool,DEF,4.9,4.49,76.36872222222222
 377,Tsimikas,Liverpool,DEF,4.8,4.49,0.0
 378,Nallo,Liverpool,DEF,3.7,4.49,75.0159
 379,R.Williams,Liverpool,DEF,3.7,4.49,67.49595000000001
 380,Ramsay,Liverpool,DEF,3.7,4.49,67.48677
-381,M.Salah,Liverpool,MID,14.0,2.62,74.01246666666667
+381,M.Salah,Liverpool,MID,14.0,2.62,77.2304
 382,Wirtz,Liverpool,MID,8.3,2.62,70.47516666666667
 383,Luis Díaz,Liverpool,MID,8.0,2.62,0.0
 384,Gakpo,Liverpool,MID,7.3,2.62,71.61578666666666
-385,Chiesa,Liverpool,MID,6.3,2.62,69.44716999999999
-386,Mac Allister,Liverpool,MID,6.1,2.62,72.06914
-387,Szoboszlai,Liverpool,MID,7.1,2.62,76.58165666666667
-388,C.Jones,Liverpool,MID,5.4,2.62,76.4452
+385,Chiesa,Liverpool,MID,6.3,2.62,68.81004
+386,Mac Allister,Liverpool,MID,6.1,2.62,70.1558
+387,Szoboszlai,Liverpool,MID,7.1,2.62,72.07685333333333
+388,C.Jones,Liverpool,MID,5.4,2.62,81.54154666666666
 390,Gravenberch,Liverpool,MID,5.4,2.62,71.52357333333333
 392,Endo,Liverpool,MID,4.9,2.62,34.40034
 393,Bajcetic,Liverpool,MID,4.2,2.62,0.0
 394,McConnell,Liverpool,MID,4.4,2.62,0.0
 395,Morton,Liverpool,MID,4.5,2.62,0.0
-396,Nyoni,Liverpool,MID,4.3,2.62,62.502452999999996
+396,Nyoni,Liverpool,MID,4.3,2.62,63.07587000000001
 397,Darwin,Liverpool,FWD,6.5,2.0,0.0
 398,Danns,Liverpool,FWD,4.3,2.0,0.0
 499,Isak,Liverpool,FWD,10.3,2.0,68.97384000000001
