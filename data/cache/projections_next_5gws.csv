@@ -1,39 +1,39 @@
 id,web_name,team_name,position,price,ep_total,exp_minutes
-1,Raya,Arsenal,GK,6.2,4.46,77.27832000000001
-2,Arrizabalaga,Arsenal,GK,4.0,4.46,72.78479999999999
+1,Raya,Arsenal,GK,6.2,4.46,73.21104
+2,Arrizabalaga,Arsenal,GK,4.0,4.46,74.10815999999998
 3,Hein,Arsenal,GK,4.0,4.46,0.0
 4,Setford,Arsenal,GK,3.9,4.46,71.45172000000001
-5,Gabriel,Arsenal,DEF,7.3,4.46,82.2946388888889
-6,Saliba,Arsenal,DEF,6.3,4.46,81.46003333333333
-7,Calafiori,Arsenal,DEF,5.6,4.46,81.549
+5,Gabriel,Arsenal,DEF,7.3,4.46,78.71661111111112
+6,Saliba,Arsenal,DEF,6.3,4.46,75.8421
+7,Calafiori,Arsenal,DEF,5.6,4.46,76.67
 8,J.Timber,Arsenal,DEF,6.0,4.46,18.9363
 9,Kiwior,Arsenal,DEF,5.4,4.46,0.0
-10,Lewis-Skelly,Arsenal,DEF,5.0,4.46,69.4368825
+10,Lewis-Skelly,Arsenal,DEF,5.0,4.46,70.06244000000001
 11,White,Arsenal,DEF,5.1,4.46,0.0
 13,Clarke,Arsenal,DEF,3.7,4.46,67.49595000000001
 14,Kacurri,Arsenal,DEF,3.9,4.46,0.0
 15,Nichols,Arsenal,DEF,3.7,4.46,67.48218
-16,Saka,Arsenal,MID,10.0,2.62,75.75914666666667
-17,Ødegaard,Arsenal,MID,7.8,2.62,70.78877
-18,Madueke,Arsenal,MID,6.8,2.62,75.84425333333334
-19,Martinelli,Arsenal,MID,6.8,2.62,73.93724
-20,Trossard,Arsenal,MID,6.6,2.62,70.79358
-21,Rice,Arsenal,MID,7.2,2.62,73.12192333333333
-22,Merino,Arsenal,MID,5.3,2.62,69.46606333333332
+16,Saka,Arsenal,MID,10.0,2.62,69.33888
+17,Ødegaard,Arsenal,MID,7.8,2.62,68.87556000000001
+18,Madueke,Arsenal,MID,6.8,2.62,82.85506666666669
+19,Martinelli,Arsenal,MID,6.8,2.62,77.76158
+20,Trossard,Arsenal,MID,6.6,2.62,68.88024
+21,Rice,Arsenal,MID,7.2,2.62,69.88644
+22,Merino,Arsenal,MID,5.3,2.62,70.10336666666666
 23,Fábio Vieira,Arsenal,MID,5.4,2.62,0.0
-24,Nørgaard,Arsenal,MID,5.1,2.62,69.43772333333332
+24,Nørgaard,Arsenal,MID,5.1,2.62,70.07476666666666
 25,Nwaneri,Arsenal,MID,5.0,2.62,0.0
-26,Zubimendi,Arsenal,MID,4.9,2.62,70.83687
+26,Zubimendi,Arsenal,MID,4.9,2.62,71.47503999999999
 28,Kabia,Arsenal,MID,4.5,2.62,0.0
 29,Sambi,Arsenal,MID,4.5,2.62,0.0
-30,Havertz,Arsenal,FWD,7.3,2.0,76.4764
-31,G.Jesus,Arsenal,FWD,6.4,2.0,72.00058666666666
-266,Eze,Arsenal,MID,7.3,2.62,71.76624
-662,Mosquera,Arsenal,DEF,5.3,4.46,81.92838333333334
+30,Havertz,Arsenal,FWD,7.3,2.0,73.92718666666667
+31,G.Jesus,Arsenal,FWD,6.4,2.0,75.18645333333333
+266,Eze,Arsenal,MID,7.3,2.62,70.4847
+662,Mosquera,Arsenal,DEF,5.3,4.46,80.53976666666667
 666,Gyökeres,Arsenal,FWD,9.1,2.0,70.85173333333333
-700,Dowman,Arsenal,MID,4.2,2.62,70.75029
+700,Dowman,Arsenal,MID,4.2,2.62,72.66246000000001
 711,Harriman-Annous,Arsenal,MID,4.4,2.62,61.9164
-725,Hincapie,Arsenal,DEF,5.1,4.46,77.099675
+725,Hincapie,Arsenal,DEF,5.1,4.46,77.79426666666666
 759,Salmon,Arsenal,DEF,4.0,4.46,67.47300000000001
 32,Martinez,Aston Villa,GK,5.0,3.72,79.6176
 33,M.Bizot,Aston Villa,GK,4.2,3.72,82.3424
@@ -83,7 +83,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 781,Carroll,Aston Villa,DEF,4.0,3.72,67.47300000000001
 792,Alysson,Aston Villa,MID,5.0,2.43,0.0
 808,Abraham,Aston Villa,FWD,5.7,2.0,61.92482400000001
-183,Weiss,Burnley,GK,4.2,4.46,74.75967
+183,Weiss,Burnley,GK,4.2,4.46,75.42126
 184,Green,Burnley,GK,4.0,4.46,0.0
 185,Hladký,Burnley,GK,3.9,4.46,71.44686
 186,Roberts,Burnley,DEF,4.3,4.46,74.97
@@ -91,11 +91,11 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 188,Delcroix,Burnley,DEF,3.8,4.46,0.0
 189,Dodgson,Burnley,DEF,4.0,4.46,0.0
 190,Ekdal,Burnley,DEF,3.8,4.46,67.50513000000001
-191,Estève,Burnley,DEF,3.8,4.46,76.72194444444445
+191,Estève,Burnley,DEF,3.8,4.46,75.327
 192,Hartman,Burnley,DEF,4.0,4.46,67.50054
-193,Humphreys,Burnley,DEF,3.9,4.46,77.05774166666666
+193,Humphreys,Burnley,DEF,3.9,4.46,77.75195555555555
 194,Jordan,Burnley,DEF,3.9,4.46,0.0
-195,Lucas Pires,Burnley,DEF,3.8,4.46,77.068225
+195,Lucas Pires,Burnley,DEF,3.8,4.46,77.76253333333332
 196,Sambo,Burnley,DEF,4.0,4.46,0.0
 197,Sonne,Burnley,DEF,3.8,4.46,0.0
 198,Tuanzebe,Burnley,DEF,3.9,4.46,77.79426666666666
@@ -106,16 +106,16 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 203,Boateng,Burnley,MID,4.7,2.61,61.9164
 204,Churlinov,Burnley,MID,4.9,2.61,0.0
 205,Cullen,Burnley,MID,4.9,2.61,0.0
-206,Edwards,Burnley,MID,4.7,2.61,69.43772333333332
+206,Edwards,Burnley,MID,4.7,2.61,70.07476666666666
 207,Hannibal,Burnley,MID,4.7,2.61,70.07476666666666
 208,Koleosho,Burnley,MID,5.0,2.61,0.0
-209,Laurent,Burnley,MID,4.8,2.61,69.43299999999999
-210,Tchaouna,Burnley,MID,4.8,2.61,65.9295
+209,Laurent,Burnley,MID,4.8,2.61,68.796
+210,Tchaouna,Burnley,MID,4.8,2.61,67.6494
 211,A.Ramsey,Burnley,MID,4.4,2.61,0.0
 212,Adewumi,Burnley,MID,4.5,2.61,0.0
 213,Banel,Burnley,MID,4.5,2.61,0.0
 214,Trésor,Burnley,MID,4.3,2.61,68.80068
-215,Flemming,Burnley,FWD,5.3,2.0,75.20690666666667
+215,Flemming,Burnley,FWD,5.3,2.0,80.30568000000001
 216,Amdouni,Burnley,FWD,4.8,2.0,70.07
 217,Foster,Burnley,FWD,4.9,2.0,68.82876
 218,Barnes,Burnley,FWD,4.2,2.0,61.966944000000005
