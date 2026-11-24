@@ -1,12 +1,12 @@
 id,web_name,team_name,position,price,ep_total,exp_minutes
-1,Raya,Arsenal,GK,6.3,21.27,219.90699999999998
+1,Raya,Arsenal,GK,6.3,21.27,219.791
 2,Arrizabalaga,Arsenal,GK,4.9,21.27,359.21893500000004
 3,Meslier,Arsenal,GK,4.9,21.27,357.21000000000004
-4,Gabriel,Arsenal,DEF,8.1,21.27,375.29752500000006
+4,Gabriel,Arsenal,DEF,8.1,21.27,375.3226000000001
 5,J.Timber,Arsenal,DEF,6.5,21.27,402.9179444444445
 6,Saliba,Arsenal,DEF,5.9,21.27,374.952
 7,Lewis-Skelly,Arsenal,MID,5.3,12.82,311.407785
-8,Calafiori,Arsenal,DEF,5.9,21.27,418.0239555555556
+8,Calafiori,Arsenal,DEF,5.9,21.27,417.996425
 9,Hincapie,Arsenal,DEF,5.2,21.27,379.88998055555555
 10,White,Arsenal,DEF,5.3,21.27,375.84450000000004
 11,Mosquera,Arsenal,DEF,5.1,21.27,375.1305
@@ -14,7 +14,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 13,Rice,Arsenal,MID,7.5,12.82,377.4038233333334
 14,Eze,Arsenal,MID,6.2,12.82,331.01913
 15,Ødegaard,Arsenal,MID,6.7,12.82,349.6272390000001
-16,Madueke,Arsenal,MID,6.2,12.82,382.356
+16,Madueke,Arsenal,MID,6.2,12.82,382.382
 17,Merino,Arsenal,MID,5.7,12.82,315.4008
 18,Martinelli,Arsenal,MID,6.3,12.82,0.0
 19,Zubimendi,Arsenal,MID,5.2,12.82,0.0
@@ -23,7 +23,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 23,Fábio Vieira,Arsenal,MID,5.5,12.82,0.0
 24,Nelson,Arsenal,MID,5.5,12.82,0.0
 25,Gyökeres,Arsenal,FWD,7.0,10.0,314.21375700000004
-26,Havertz,Arsenal,FWD,7.4,10.0,379.23140666666666
+26,Havertz,Arsenal,FWD,7.4,10.0,379.20571
 27,G.Jesus,Arsenal,FWD,5.9,10.0,0.0
 31,Konsa,Arsenal,DEF,4.9,21.27,425.81515
 452,Bruno G.,Arsenal,MID,6.7,12.82,361.69497
@@ -35,7 +35,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 34,Pau,Aston Villa,DEF,4.4,22.2,400.61590833333327
 35,Bogarde,Aston Villa,MID,4.9,13.05,309.60306
 36,Maatsen,Aston Villa,DEF,4.4,22.2,390.94876388888895
-37,Lindelöf,Aston Villa,DEF,4.5,22.2,288.04272291666666
+37,Lindelöf,Aston Villa,DEF,4.5,22.2,384.05696388888884
 38,A.García,Aston Villa,DEF,4.0,22.2,0.0
 39,Nedeljkovic,Aston Villa,DEF,4.0,22.2,0.0
 41,Buendía,Aston Villa,MID,5.8,13.05,313.80843000000004
@@ -53,10 +53,10 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 55,Watkins,Aston Villa,FWD,7.8,10.0,0.0
 56,Abraham,Aston Villa,FWD,5.5,10.0,344.02680000000004
 160,Garnacho,Aston Villa,MID,5.7,13.05,311.365431
-166,N.Jackson,Aston Villa,FWD,7.3,10.0,360.111141
+166,N.Jackson,Aston Villa,FWD,7.3,10.0,360.158955
 582,Madjo,Aston Villa,FWD,5.3,10.0,348.4627033333333
 596,Ruggeri,Aston Villa,DEF,4.4,22.2,0.0
-597,Suzuki,Aston Villa,GK,5.1,22.2,373.33655999999996
+597,Suzuki,Aston Villa,GK,5.1,22.2,373.36189499999995
 606,Rowe,Aston Villa,DEF,4.0,22.2,337.41089999999997
 607,Lynch,Aston Villa,MID,4.5,13.05,0.0
 611,Wan-Bissaka,Aston Villa,DEF,4.5,22.2,393.64604999999995
@@ -65,134 +65,134 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 631,Mbaye,Aston Villa,MID,6.0,13.05,315.33645
 667,Wright,Aston Villa,GK,4.0,22.2,357.30719999999997
 672,Cissé,Aston Villa,DEF,4.5,22.2,337.36500000000007
-57,Petrović,Bournemouth,GK,4.5,21.27,392.48712
+57,Petrović,Bournemouth,GK,4.5,21.27,389.172195
 58,Forster,Bournemouth,GK,4.0,21.27,358.01189999999997
 59,Dennis,Bournemouth,GK,4.0,21.27,0.0
-60,Hill,Bournemouth,DEF,5.6,21.27,393.4106
-61,Truffert,Bournemouth,DEF,5.4,21.27,375.717
+60,Hill,Bournemouth,DEF,5.6,21.27,388.47805000000005
+61,Truffert,Bournemouth,DEF,5.4,21.27,367.6014125
 62,Diakité,Bournemouth,DEF,4.9,21.27,343.635875
 63,Milosavljević,Bournemouth,DEF,4.9,21.27,0.0
-64,Smith,Bournemouth,DEF,4.5,21.27,367.40297999999996
+64,Smith,Bournemouth,DEF,4.5,21.27,364.2788049999999
 65,J.Araujo,Bournemouth,DEF,4.4,21.27,0.0
 66,Soler,Bournemouth,DEF,4.0,21.27,374.90099999999995
-67,Rayan,Bournemouth,MID,6.3,12.82,335.92806
-68,Tavernier,Bournemouth,MID,6.7,12.82,351.7722
+67,Rayan,Bournemouth,MID,6.3,12.82,325.59181200000006
+68,Tavernier,Bournemouth,MID,6.8,12.82,344.196255
 69,Scott,Bournemouth,MID,5.9,12.82,344.47139999999996
-70,Kluivert,Bournemouth,MID,5.9,12.82,382.48600000000005
-71,Cook,Bournemouth,MID,4.9,12.82,322.21651800000006
-72,Gannon-Doak,Bournemouth,MID,4.8,12.82,312.44849999999997
-73,Adams,Bournemouth,MID,5.0,12.82,364.43836
+70,Kluivert,Bournemouth,MID,5.9,12.82,382.51199999999994
+71,Cook,Bournemouth,MID,4.9,12.82,315.33645
+72,Gannon-Doak,Bournemouth,MID,4.8,12.82,311.30190000000005
+73,Adams,Bournemouth,MID,5.0,12.82,363.1641000000001
 74,Brooks,Bournemouth,MID,4.9,12.82,343.98
-75,Christie,Bournemouth,MID,5.0,12.82,368.2110466666666
+75,Christie,Bournemouth,MID,5.0,12.82,373.94443666666666
 76,Tóth.A,Bournemouth,MID,4.9,12.82,0.0
-77,Adli,Bournemouth,MID,4.8,12.82,359.905
-78,Kroupi.Jr,Bournemouth,MID,7.3,12.82,355.63944000000004
-79,Evanilson,Bournemouth,FWD,6.6,10.0,359.05544999999995
+77,Adli,Bournemouth,MID,4.8,12.82,363.09000000000003
+78,Kroupi.Jr,Bournemouth,MID,7.3,12.82,356.9141333333333
+79,Evanilson,Bournemouth,FWD,6.6,10.0,362.04714
 80,Enes Ünal,Bournemouth,FWD,5.5,10.0,0.0
-81,Rodríguez,Bournemouth,FWD,6.0,10.0,347.2122333333333
-566,Silva,Bournemouth,DEF,5.1,21.27,380.8816000000001
+81,Rodríguez,Bournemouth,FWD,6.0,10.0,348.48640666666665
+566,Silva,Bournemouth,DEF,5.1,21.27,377.77497750000003
 573,Sanchez,Bournemouth,DEF,4.4,21.27,0.0
 608,Jebbison,Bournemouth,FWD,5.0,10.0,309.60306
 615,Di Gregorio,Bournemouth,GK,4.5,21.27,357.21000000000004
-82,Kelleher,Brentford,GK,5.0,21.27,377.21448
+82,Kelleher,Brentford,GK,5.0,21.27,391.8249
 83,Valdimarsson,Brentford,GK,4.4,21.27,357.2343
 84,Collins,Brentford,DEF,5.4,21.27,0.0
-85,Van den Berg,Brentford,DEF,4.9,21.27,397.09034444444444
-86,Lewis-Potter,Brentford,MID,5.5,12.82,318.549465
-87,Ajer,Brentford,DEF,4.5,21.27,357.05227500000007
-88,Kayode,Brentford,DEF,4.5,21.27,354.52054999999996
+85,Van den Berg,Brentford,DEF,4.9,21.27,414.4456916666667
+86,Lewis-Potter,Brentford,MID,5.5,12.82,348.419214
+87,Ajer,Brentford,DEF,4.5,21.27,371.4596475000001
+88,Kayode,Brentford,DEF,4.5,21.27,363.9326
 89,Henry,Brentford,DEF,4.4,21.27,0.0
 90,Hickey,Brentford,DEF,4.5,21.27,0.0
 92,Ji-soo,Brentford,DEF,4.4,21.27,337.36500000000007
 93,Schuster,Brentford,DEF,4.4,21.27,374.952
-94,Schade,Brentford,MID,6.1,12.82,356.39695000000006
-95,O.Dango,Brentford,MID,6.2,12.82,333.7513919999999
-96,Damsgaard,Brentford,MID,5.2,12.82,347.2358499999999
-97,Jensen,Brentford,MID,5.4,12.82,353.55905
-98,Janelt,Brentford,MID,5.0,12.82,355.80870000000004
+94,Schade,Brentford,MID,6.1,12.82,357.63298999999995
+95,O.Dango,Brentford,MID,6.2,12.82,328.59028800000004
+96,Damsgaard,Brentford,MID,5.2,12.82,352.33289
+97,Jensen,Brentford,MID,5.4,12.82,361.20357000000007
+98,Janelt,Brentford,MID,5.0,12.82,380.67704999999995
 99,Milambo,Brentford,MID,5.0,12.82,0.0
-100,Carvalho,Brentford,MID,5.0,12.82,257.98499999999996
-102,Yarmoliuk,Brentford,MID,4.7,12.82,345.34794666666664
+100,Carvalho,Brentford,MID,5.0,12.82,356.71999999999997
+102,Yarmoliuk,Brentford,MID,4.7,12.82,352.3568533333333
 103,Dasilva,Brentford,MID,4.8,12.82,0.0
-105,Anthony,Brentford,MID,5.9,12.82,316.504656
+105,Anthony,Brentford,MID,5.9,12.82,336.57288600000004
 106,Thiago,Brentford,FWD,7.8,10.0,0.0
 107,Furo,Brentford,FWD,4.4,10.0,0.0
-108,Wilson,Brentford,FWD,5.3,10.0,314.232516
-565,M.Sangaré,Brentford,MID,5.3,12.82,322.24920000000003
-620,Diouf,Brentford,DEF,4.4,21.27,340.51191249999994
+108,Wilson,Brentford,FWD,5.3,10.0,317.09960099999995
+565,M.Sangaré,Brentford,MID,5.3,12.82,320.522865
+620,Diouf,Brentford,DEF,4.4,21.27,341.7614975
 657,Nunes,Brentford,MID,4.5,12.82,309.582
 660,Fredrick,Brentford,DEF,4.0,21.27,337.36500000000007
 661,Balcombe,Brentford,GK,4.0,21.27,357.2343
-109,Verbruggen,Brighton,GK,4.7,21.74,398.1348
+109,Verbruggen,Brighton,GK,4.7,21.74,405.58684500000004
 111,Steele,Brighton,GK,3.9,21.74,358.0362
-113,F.Kadıoğlu,Brighton,DEF,4.3,21.74,376.5454666666667
-114,Boscagli,Brighton,DEF,4.5,21.74,363.80237999999997
-115,De Cuyper,Brighton,DEF,5.5,21.74,375.972
-116,Dunk,Brighton,DEF,4.5,21.74,397.46849999999995
+113,F.Kadıoğlu,Brighton,DEF,4.3,21.74,375.156
+114,Boscagli,Brighton,DEF,4.5,21.74,375.05400000000003
+115,De Cuyper,Brighton,DEF,5.5,21.74,383.10320250000007
+116,Dunk,Brighton,DEF,4.5,21.74,403.02750000000003
 117,Coppola,Brighton,DEF,4.5,21.74,337.36500000000007
 118,Igor,Brighton,DEF,4.5,21.74,0.0
 119,Costinha,Brighton,DEF,4.5,21.74,0.0
 120,Svoboda,Brighton,DEF,5.0,21.74,337.38795000000005
 121,Mitoma,Brighton,MID,5.9,12.93,0.0
-122,Minteh,Brighton,MID,5.8,12.93,347.16499999999996
+122,Minteh,Brighton,MID,5.8,12.93,348.43899999999996
 123,Hinshelwood,Brighton,MID,5.9,12.93,350.49299999999994
-124,Groß,Brighton,MID,6.3,12.93,343.7108999999999
-125,Georginio,Brighton,FWD,5.2,10.0,351.71968
+124,Groß,Brighton,MID,6.3,12.93,351.414765
+125,Georginio,Brighton,FWD,5.2,10.0,352.3568533333333
 126,O'Riley,Brighton,MID,5.4,12.93,309.60306
-127,Gomez,Brighton,MID,5.1,12.93,334.727406
+127,Gomez,Brighton,MID,5.1,12.93,339.30546
 128,Buonanotte,Brighton,MID,5.0,12.93,0.0
-129,Ayari,Brighton,MID,5.5,12.93,373.27875000000006
-130,Wieffer,Brighton,DEF,4.8,21.74,376.2639277777777
+129,Ayari,Brighton,MID,5.5,12.93,378.3577200000001
+130,Wieffer,Brighton,DEF,4.8,21.74,376.9581416666666
 132,Howell,Brighton,MID,4.5,12.93,0.0
 133,Watson,Brighton,MID,5.0,12.93,0.0
 134,Oriola,Brighton,MID,4.3,12.93,309.62412000000006
 135,Yohanna,Brighton,MID,4.7,12.93,0.0
 137,Tzimas,Brighton,FWD,5.4,10.0,0.0
-138,Kostoulas,Brighton,FWD,5.7,10.0,321.83821800000004
+138,Kostoulas,Brighton,FWD,5.7,10.0,321.239724
 139,Ferguson,Brighton,FWD,4.9,10.0,0.0
 328,Struijk,Brighton,DEF,4.9,21.74,374.8755
-504,Vuskovic,Brighton,DEF,5.3,21.74,370.22685
+504,Vuskovic,Brighton,DEF,5.3,21.74,377.808
 594,David,Brighton,FWD,5.9,10.0,309.62412000000006
-600,Osman,Brighton,MID,4.9,12.93,310.7286
+600,Osman,Brighton,MID,4.9,12.93,311.30190000000005
 605,Yalcouyé,Brighton,MID,4.4,12.93,0.0
-614,Hadjam,Brighton,DEF,4.5,21.74,282.19794583333334
+614,Hadjam,Brighton,DEF,4.5,21.74,282.71860625
 624,Cozier-Duberry,Brighton,MID,5.0,12.93,0.0
 639,Andrés,Brighton,MID,5.5,12.93,350.3738333333333
 652,Azeez,Brighton,MID,5.5,12.93,343.98
 658,Ibrahim,Brighton,MID,4.5,12.93,309.582
-28,Martinez,Chelsea,GK,4.9,21.42,399.21009999999995
-40,Rogers,Chelsea,MID,8.3,12.85,346.053708
-101,Henderson,Chelsea,MID,4.9,12.85,353.84765000000004
+28,Martinez,Chelsea,GK,4.9,21.42,399.94665
+40,Rogers,Chelsea,MID,8.3,12.85,352.594242
+101,Henderson,Chelsea,MID,4.9,12.85,352.54856000000007
 136,Welbeck,Chelsea,FWD,5.8,10.0,350.5168333333333
 140,Sánchez,Chelsea,GK,4.9,21.42,0.0
 141,Jörgensen,Chelsea,GK,5.0,21.42,0.0
 142,James,Chelsea,DEF,5.2,21.42,0.0
 143,Chalobah,Chelsea,DEF,5.5,21.42,0.0
-144,Gusto,Chelsea,DEF,4.8,21.42,380.5844777777778
-145,Fofana,Chelsea,DEF,5.0,21.42,399.2272916666667
+144,Gusto,Chelsea,DEF,4.8,21.42,381.9734722222222
+145,Fofana,Chelsea,DEF,5.0,21.42,407.55899166666666
 146,B.Badiashile,Chelsea,DEF,4.5,21.42,0.0
 148,Hato,Chelsea,DEF,4.4,21.42,0.0
-149,Colwill,Chelsea,DEF,4.8,21.42,351.32446500000003
+149,Colwill,Chelsea,DEF,4.8,21.42,350.0742
 150,M.Sarr,Chelsea,DEF,4.5,21.42,0.0
-151,Acheampong,Chelsea,DEF,4.5,21.42,394.42077777777774
-152,Palestra,Chelsea,DEF,5.3,21.42,388.86555555555555
-154,Palmer,Chelsea,MID,9.8,12.85,368.60928
-156,Neto,Chelsea,MID,6.6,12.85,322.05264000000005
-157,Estêvão,Chelsea,MID,6.3,12.85,320.07549600000004
+151,Acheampong,Chelsea,DEF,4.5,21.42,397.89279166666665
+152,Palestra,Chelsea,DEF,5.3,21.42,393.72637499999996
+154,Palmer,Chelsea,MID,9.8,12.85,376.34653333333335
+156,Neto,Chelsea,MID,6.6,12.85,320.327358
+157,Estêvão,Chelsea,MID,6.3,12.85,321.2227200000001
 158,Gittens,Chelsea,MID,5.8,12.85,0.0
-159,Caicedo,Chelsea,MID,5.3,12.85,268.67815
-161,Lavia,Chelsea,MID,5.0,12.85,325.67870400000004
+159,Caicedo,Chelsea,MID,5.3,12.85,269.156225
+161,Lavia,Chelsea,MID,5.0,12.85,330.83910599999996
 163,D.Essugo,Chelsea,MID,4.5,12.85,0.0
-164,Quenda,Chelsea,MID,5.2,12.85,353.535
+164,Quenda,Chelsea,MID,5.2,12.85,350.34999999999997
 165,João Pedro,Chelsea,FWD,7.6,10.0,0.0
 168,Marc Guiu,Chelsea,FWD,5.0,10.0,0.0
 169,Mheuka,Chelsea,FWD,4.5,10.0,309.66624
-170,Emegha,Chelsea,FWD,4.9,10.0,358.0183533333334
+170,Emegha,Chelsea,FWD,4.9,10.0,363.11469999999997
 200,Lacroix,Chelsea,DEF,5.8,21.42,0.0
-560,Penders,Chelsea,GK,4.4,21.42,370.51559999999995
+560,Penders,Chelsea,GK,4.4,21.42,375.147045
 561,Anselmino,Chelsea,DEF,4.5,21.42,374.85
-568,Barco,Chelsea,MID,5.3,12.85,310.749738
-583,Chavarria,Chelsea,DEF,4.9,21.42,381.8436111111111
+568,Barco,Chelsea,MID,5.3,12.85,311.323077
+583,Chavarria,Chelsea,DEF,4.9,21.42,383.92639444444444
 662,Nicoll-Jazuli,Chelsea,MID,4.5,12.85,309.582
 669,Sharman-Lowe,Chelsea,GK,4.0,21.42,357.2343
 670,Subuloye,Chelsea,DEF,4.0,21.42,337.36500000000007
@@ -211,7 +211,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 180,Woolfenden,Coventry City,DEF,3.9,21.89,0.0
 181,Brau,Coventry City,DEF,4.0,21.89,0.0
 182,Amenda,Coventry City,DEF,3.9,21.89,0.0
-183,Rudoni,Coventry City,MID,4.9,12.97,389.0458
+183,Rudoni,Coventry City,MID,5.0,12.97,389.0458
 184,Grimes,Coventry City,MID,4.8,12.97,315.33645
 185,Sakamoto,Coventry City,MID,4.8,12.97,338.27001
 186,Mason-Clark,Coventry City,MID,5.3,12.97,258.00255
@@ -233,21 +233,21 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 623,Bentley,Coventry City,GK,4.0,21.89,357.453
 655,Gboho,Coventry City,MID,5.5,12.97,332.51399999999995
 656,Mfuni,Coventry City,DEF,4.0,21.89,354.281445
-42,Guessand,Crystal Palace,MID,5.3,12.93,310.7286
-153,Disasi,Crystal Palace,DEF,4.4,21.74,392.2308472222222
-198,Henderson,Crystal Palace,GK,4.9,21.74,410.409
-199,Benitez,Crystal Palace,GK,4.5,21.74,358.55739
-202,Richards,Crystal Palace,DEF,4.9,21.74,353.1038124999999
-203,Canvot,Crystal Palace,DEF,4.8,21.74,343.65925
-204,Mitchell,Crystal Palace,DEF,4.4,21.74,347.79768750000005
+42,Guessand,Crystal Palace,MID,5.3,12.93,311.30190000000005
+153,Disasi,Crystal Palace,DEF,4.4,21.74,390.8424194444445
+198,Henderson,Crystal Palace,GK,4.9,21.74,414.0865
+199,Benitez,Crystal Palace,GK,4.5,21.74,357.2343
+202,Richards,Crystal Palace,DEF,4.9,21.74,351.8538874999999
+203,Canvot,Crystal Palace,DEF,4.8,21.74,345.5337549999999
+204,Mitchell,Crystal Palace,DEF,4.4,21.74,349.0510125
 205,Sosa,Crystal Palace,DEF,4.5,21.74,0.0
 206,Chadi Riad,Crystal Palace,DEF,4.3,21.74,0.0
-207,Mingueza,Crystal Palace,DEF,4.2,21.74,282.17875
+207,Mingueza,Crystal Palace,DEF,4.2,21.74,282.69937500000003
 208,Sarr,Crystal Palace,MID,6.2,12.93,0.0
-210,Wharton,Crystal Palace,MID,5.3,12.93,358.14011999999997
+210,Wharton,Crystal Palace,MID,5.3,12.93,358.77737999999994
 211,Yeremy,Crystal Palace,MID,5.5,12.93,0.0
-212,Hughes,Crystal Palace,MID,4.3,12.93,311.870052
-213,Lerma,Crystal Palace,MID,4.8,12.93,316.48312799999997
+212,Hughes,Crystal Palace,MID,4.3,12.93,312.44545800000003
+213,Lerma,Crystal Palace,MID,4.8,12.93,319.34982299999996
 214,Kamada,Crystal Palace,MID,5.0,12.93,321.17904000000004
 215,Devenny,Crystal Palace,MID,5.0,12.93,0.0
 216,Esse,Crystal Palace,MID,5.0,12.93,0.0
@@ -256,45 +256,45 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 219,J.Rak-Sakyi,Crystal Palace,MID,4.9,12.93,0.0
 220,Cardines,Crystal Palace,DEF,4.5,21.74,0.0
 221,Drakes-Thomas,Crystal Palace,MID,4.3,12.93,309.60306
-222,Strand Larsen,Crystal Palace,FWD,5.9,10.0,363.1888
+222,Strand Larsen,Crystal Palace,FWD,5.9,10.0,369.5856666666667
 223,Mateta,Crystal Palace,FWD,6.3,10.0,0.0
-224,Nketiah,Crystal Palace,FWD,5.4,10.0,356.8170666666666
+224,Nketiah,Crystal Palace,FWD,5.4,10.0,358.7285866666667
 225,Uche,Crystal Palace,FWD,5.0,10.0,0.0
-241,McNeil,Crystal Palace,MID,5.2,12.93,316.48312799999997
+241,McNeil,Crystal Palace,MID,5.2,12.93,315.33645
 555,Matthews,Crystal Palace,GK,4.0,21.74,357.5745
 577,Tomiyasu,Crystal Palace,DEF,4.3,21.74,0.0
-588,Khalaili,Crystal Palace,DEF,5.0,21.74,380.4550888888889
+588,Khalaili,Crystal Palace,DEF,5.0,21.74,381.8436111111111
 595,Gozo,Crystal Palace,MID,4.8,12.93,309.582
 633,Ahanor,Crystal Palace,DEF,4.5,21.74,337.36500000000007
 643,Chilwell,Crystal Palace,DEF,4.4,21.74,374.9265
-644,Timber,Crystal Palace,MID,5.0,12.93,349.07599999999996
-647,Osorio,Crystal Palace,MID,5.4,12.93,319.9014
-21,Nørgaard,Everton,MID,4.8,12.82,343.98
-209,Johnson,Everton,MID,5.8,12.82,311.323077
-226,Pickford,Everton,GK,5.5,21.27,381.20544
+644,Timber,Crystal Palace,MID,5.0,12.93,350.34999999999997
+647,Osorio,Crystal Palace,MID,5.4,12.93,321.04800000000006
+21,Nørgaard,Everton,MID,4.8,12.82,345.891
+209,Johnson,Everton,MID,5.8,12.82,313.61643300000003
+226,Pickford,Everton,GK,5.5,21.27,383.8405949999999
 227,Travers,Everton,GK,5.0,21.27,357.21000000000004
 228,King,Everton,GK,4.5,21.27,357.21000000000004
-229,Tarkowski,Everton,DEF,6.2,21.27,358.7394825
-230,Branthwaite,Everton,DEF,5.5,21.27,403.2192222222222
-231,Keane,Everton,DEF,4.7,21.27,341.877735
-232,O'Brien,Everton,DEF,4.8,21.27,351.80603249999996
-233,Mykolenko,Everton,DEF,4.6,21.27,408.16881944444447
+229,Tarkowski,Everton,DEF,6.2,21.27,0.0
+230,Branthwaite,Everton,DEF,5.5,21.27,408.08566111111105
+231,Keane,Everton,DEF,4.7,21.27,343.75274999999993
+232,O'Brien,Everton,DEF,4.8,21.27,356.1801750000001
+233,Mykolenko,Everton,DEF,4.6,21.27,410.25486111111115
 234,Patterson,Everton,DEF,4.5,21.27,0.0
 235,Aznou,Everton,DEF,4.0,21.27,0.0
-236,Dewsbury-Hall,Everton,MID,6.7,12.82,335.870964
-238,Grealish,Everton,MID,6.5,12.82,344.07359999999994
-239,Garner,Everton,MID,6.0,12.82,354.8572733333333
-242,George,Everton,MID,5.5,12.82,322.85572800000006
+236,Dewsbury-Hall,Everton,MID,6.7,12.82,339.88070999999997
+238,Grealish,Everton,MID,6.5,12.82,345.98512
+239,Garner,Everton,MID,6.0,12.82,363.1394
+242,George,Everton,MID,5.5,12.82,325.149552
 243,Alcaraz,Everton,MID,4.8,12.82,311.323077
-244,Armstrong,Everton,MID,5.0,12.82,354.88140999999996
+244,Armstrong,Everton,MID,5.0,12.82,358.70419
 245,Dibling,Everton,MID,5.3,12.82,313.59510000000006
-246,Röhl,Everton,MID,4.9,12.82,354.80899999999997
-247,Hackney,Everton,MID,5.3,12.82,348.4627033333333
+246,Röhl,Everton,MID,4.9,12.82,358.631
+247,Hackney,Everton,MID,5.3,12.82,350.3738333333333
 248,Beto,Everton,FWD,5.4,10.0,0.0
-249,Barry,Everton,FWD,5.7,10.0,359.960055
+249,Barry,Everton,FWD,5.7,10.0,364.0045500000001
 649,Maitland-Niles,Everton,DEF,4.5,21.27,337.6174500000001
 654,Graham,Everton,MID,4.4,12.82,309.60306
-250,Leno,Fulham,GK,4.5,21.27,373.513905
+250,Leno,Fulham,GK,4.5,21.27,373.48857
 251,Lecomte,Fulham,GK,4.0,21.27,0.0
 252,McNally,Fulham,GK,4.0,21.27,0.0
 253,Andersen,Fulham,DEF,5.0,21.27,374.90099999999995
@@ -312,9 +312,9 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 268,King,Fulham,MID,5.4,12.82,359.31410666666665
 269,Sessegnon,Fulham,DEF,4.3,21.27,381.8436111111111
 270,Reed,Fulham,MID,4.3,12.82,309.79260000000005
-271,Muniz,Fulham,FWD,5.3,10.0,340.03628100000003
+271,Muniz,Fulham,FWD,5.3,10.0,340.05940799999996
 272,Kusi-Asare,Fulham,FWD,4.3,10.0,310.42440000000005
-569,Gonzalo,Fulham,FWD,5.8,10.0,320.001513
+569,Gonzalo,Fulham,FWD,5.8,10.0,319.97979
 570,Palacios,Fulham,MID,5.2,12.82,321.06984000000006
 580,Charles,Fulham,MID,5.0,12.82,322.7898570000001
 610,De Fougerolles,Fulham,DEF,4.0,21.27,0.0
@@ -328,25 +328,25 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 274,Butland,Hull City,GK,4.4,21.42,396.927
 275,Cartwright,Hull City,GK,4.0,21.42,0.0
 276,Lo-Tutala,Hull City,GK,4.0,21.42,0.0
-277,Egan,Hull City,DEF,4.1,21.42,350.10454500000003
+277,Egan,Hull City,DEF,4.0,21.42,345.06174999999996
 278,Hughes,Hull City,DEF,3.9,21.42,0.0
-279,Ajayi,Hull City,DEF,4.2,21.42,409.31962500000003
-280,Coyle,Hull City,DEF,4.0,21.42,399.30875000000003
+279,Ajayi,Hull City,DEF,4.2,21.42,410.7467277777778
+280,Coyle,Hull City,DEF,4.0,21.42,402.781
 281,Drameh,Hull City,DEF,4.0,21.42,0.0
-282,Giles,Hull City,DEF,4.0,21.42,345.4250400000001
+282,Giles,Hull City,DEF,4.0,21.42,344.1735
 283,Jacob,Hull City,DEF,4.0,21.42,0.0
 284,McCarthy,Hull City,DEF,4.0,21.42,337.38795000000005
 285,McNair,Hull City,DEF,3.9,21.42,374.8755
-286,Belloumi,Hull City,MID,5.2,12.86,371.67173333333335
+286,Belloumi,Hull City,MID,5.2,12.86,371.6968666666667
 287,Millar,Hull City,MID,5.0,12.86,0.0
 288,Dowell,Hull City,MID,4.3,12.86,309.62412000000006
-289,Crooks,Hull City,MID,4.4,12.86,349.19473333333326
-290,Slater,Hull City,MID,4.5,12.86,323.09323800000004
+289,Crooks,Hull City,MID,4.4,12.86,350.4691666666667
+290,Slater,Hull City,MID,4.5,12.86,323.668137
 291,Matazo,Hull City,MID,4.5,12.86,0.0
 292,Ömür,Hull City,MID,4.8,12.86,309.582
 293,Kamara,Hull City,MID,5.0,12.86,0.0
 294,Zambrano,Hull City,MID,4.4,12.86,344.0034
-295,McBurnie,Hull City,FWD,5.5,10.0,360.49774799999994
+295,McBurnie,Hull City,FWD,5.5,10.0,361.6704
 296,Akintola,Hull City,MID,5.0,12.86,0.0
 297,Gyabi,Hull City,MID,4.4,12.86,257.98499999999996
 298,Destan,Hull City,FWD,4.5,10.0,0.0
@@ -354,26 +354,26 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 340,Gelhardt,Hull City,MID,5.0,12.86,0.0
 556,Targett,Hull City,DEF,3.9,21.42,0.0
 563,Morita,Hull City,MID,4.9,12.86,0.0
-572,Tzolakis,Hull City,GK,4.7,21.42,393.84270000000004
-574,Hjertø-Dahl,Hull City,MID,4.7,12.86,310.7286
-576,Stroud,Hull City,MID,4.9,12.86,323.936535
-585,Herrington,Hull City,DEF,3.9,21.42,344.9793
-586,Mendy,Hull City,DEF,4.1,21.42,395.46684444444446
-589,Gourna-Douath,Hull City,MID,4.9,12.86,350.34999999999997
+572,Tzolakis,Hull City,GK,4.7,21.42,398.56913999999995
+574,Hjertø-Dahl,Hull City,MID,4.7,12.86,311.30190000000005
+576,Stroud,Hull City,MID,4.9,12.86,321.06984000000006
+585,Herrington,Hull City,DEF,3.9,21.42,339.35463749999997
+586,Mendy,Hull City,DEF,4.1,21.42,401.73304444444443
+589,Gourna-Douath,Hull City,MID,4.9,12.86,352.261
 617,Cho,Hull City,MID,5.0,12.86,350.34999999999997
 632,Ansah,Hull City,FWD,4.9,10.0,0.0
-637,Vaz,Hull City,FWD,5.0,10.0,345.2774866666666
-638,Norton-Cuffy,Hull City,DEF,3.9,21.42,380.5068444444444
-642,Thomas,Hull City,MID,5.5,12.86,310.7286
-645,Mouzakitis,Hull City,MID,5.0,12.86,310.7286
+637,Vaz,Hull City,FWD,5.0,10.0,344.0034
+638,Norton-Cuffy,Hull City,DEF,3.9,21.42,379.81248888888894
+642,Thomas,Hull City,MID,5.5,12.86,311.30190000000005
+645,Mouzakitis,Hull City,MID,5.0,12.86,311.30190000000005
 259,Diop,Ipswich Town,DEF,3.9,21.74,345.833125
 267,Lukić,Ipswich Town,MID,4.9,12.94,352.28496333333334
 300,Walton,Ipswich Town,GK,4.4,21.74,370.566
 301,Palmer,Ipswich Town,GK,3.9,21.74,358.01189999999997
-302,Button,Ipswich Town,GK,4.0,21.74,357.3558
+302,Button,Ipswich Town,GK,4.0,21.74,357.3315
 303,Kipré,Ipswich Town,DEF,3.9,21.74,337.52565000000004
 304,O'Shea,Ipswich Town,DEF,4.0,21.74,348.601235
-305,Davis,Ipswich Town,DEF,4.0,21.74,283.8917125
+305,Davis,Ipswich Town,DEF,4.0,21.74,283.87248124999996
 306,Greaves,Ipswich Town,DEF,3.8,21.74,339.470025
 307,Johnson,Ipswich Town,DEF,4.0,21.74,0.0
 308,Furlong,Ipswich Town,DEF,3.9,21.74,339.35463749999997
@@ -406,13 +406,13 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 326,Perri,Leeds,GK,4.5,21.26,0.0
 327,Bijol,Leeds,DEF,5.0,21.26,349.97900000000004
 329,Rodon,Leeds,DEF,4.2,21.26,378.4237777777777
-330,Bogle,Leeds,DEF,4.8,21.26,366.49849500000005
+330,Bogle,Leeds,DEF,4.8,21.26,366.52323
 331,Gudmundsson,Leeds,DEF,4.5,21.26,392.2308472222222
 332,Justin,Leeds,DEF,4.5,21.26,370.50616
 333,Bornauw,Leeds,DEF,4.5,21.26,0.0
-334,Muharemović,Leeds,DEF,5.1,21.26,376.66049999999996
-335,Stach,Leeds,MID,6.0,12.82,349.45594666666665
-336,Okafor,Leeds,MID,5.7,12.82,377.36053333333336
+334,Muharemović,Leeds,DEF,5.1,21.26,376.7115
+335,Stach,Leeds,MID,6.0,12.82,349.43219999999997
+336,Okafor,Leeds,MID,5.7,12.82,377.41184000000004
 337,Aaronson,Leeds,MID,5.2,12.82,325.700856
 338,Ampadu,Leeds,MID,5.3,12.82,331.52519400000006
 339,Longstaff,Leeds,MID,4.8,12.82,316.48312799999997
@@ -421,11 +421,11 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 343,James,Leeds,MID,4.9,12.82,347.18861666666663
 344,Gruev,Leeds,MID,5.0,12.82,345.25399999999996
 345,Tanaka,Leeds,MID,4.9,12.82,326.84769000000006
-346,Calvert-Lewin,Leeds,FWD,6.0,10.0,372.4188866666667
+346,Calvert-Lewin,Leeds,FWD,6.0,10.0,372.4940266666666
 347,Nmecha,Leeds,FWD,5.2,10.0,315.4008
 348,Piroe,Leeds,FWD,5.0,10.0,0.0
 349,Mateo Joseph,Leeds,FWD,4.4,10.0,0.0
-385,Trafford,Leeds,GK,5.1,21.26,398.898
+385,Trafford,Leeds,GK,5.1,21.26,399.006
 598,Elvedi,Leeds,DEF,4.5,21.26,399.17298611111113
 603,Lienou,Leeds,DEF,4.0,21.26,337.38795000000005
 604,Cresswell,Leeds,MID,4.5,12.82,309.60306
@@ -433,51 +433,51 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 629,Zetterer,Leeds,GK,4.0,21.26,357.3801
 641,Bard,Leeds,DEF,4.5,21.26,340.48875
 648,Bahoya,Leeds,MID,4.8,12.82,345.25399999999996
-350,A.Becker,Liverpool,GK,5.5,21.58,390.07331999999997
+350,A.Becker,Liverpool,GK,5.5,21.58,386.80884
 351,Mamardashvili,Liverpool,GK,4.8,21.58,357.2343
-352,Woodman,Liverpool,GK,4.0,21.58,357.42870000000005
+352,Woodman,Liverpool,GK,3.9,21.58,357.42870000000005
 353,Pecsi,Liverpool,GK,4.0,21.58,0.0
 354,Jaros,Liverpool,GK,4.0,21.58,0.0
 355,Davies,Liverpool,GK,4.0,21.58,357.25860000000006
-356,Virgil,Liverpool,DEF,6.4,21.58,413.59819444444446
-357,Frimpong,Liverpool,DEF,5.1,21.58,376.51987222222226
-358,Kerkez,Liverpool,DEF,5.2,21.58,361.54767
-359,Gomez,Liverpool,DEF,4.9,21.58,378.3208333333333
+356,Virgil,Liverpool,DEF,6.4,21.58,404.5122611111111
+357,Frimpong,Liverpool,DEF,5.1,21.58,377.2145583333333
+358,Kerkez,Liverpool,DEF,5.2,21.58,356.54355000000004
+359,Gomez,Liverpool,DEF,4.9,21.58,379.70916666666665
 360,Bradley,Liverpool,DEF,4.9,21.58,0.0
 361,Lucky,Liverpool,DEF,3.9,21.58,337.38795000000005
-362,Jacquet,Liverpool,DEF,5.1,21.58,410.89566666666667
+362,Jacquet,Liverpool,DEF,5.1,21.58,403.95872222222226
 363,Leoni,Liverpool,DEF,3.9,21.58,0.0
-364,Tsimikas,Liverpool,DEF,4.8,21.58,340.51191249999994
+364,Tsimikas,Liverpool,DEF,4.8,21.58,339.26232749999997
 365,Ramsay,Liverpool,DEF,4.0,21.58,0.0
-366,Wirtz,Liverpool,MID,7.4,12.9,402.40355999999997
-367,Gakpo,Liverpool,MID,7.1,12.9,268.7594
-368,Szoboszlai,Liverpool,MID,6.7,12.9,374.18914
-369,Ngumoha,Liverpool,MID,5.7,12.9,332.64972
+366,Wirtz,Liverpool,MID,7.4,12.9,408.4465233333333
+367,Gakpo,Liverpool,MID,7.1,12.9,267.301515
+368,Szoboszlai,Liverpool,MID,6.7,12.9,383.85906
+369,Ngumoha,Liverpool,MID,5.7,12.9,338.38505999999995
 370,Chiesa,Liverpool,MID,5.3,12.9,343.98
-371,Gravenberch,Liverpool,MID,5.8,12.9,261.94948
-372,Mac Allister,Liverpool,MID,5.4,12.9,332.83068000000003
+371,Gravenberch,Liverpool,MID,5.8,12.9,258.1254
+372,Mac Allister,Liverpool,MID,5.4,12.9,334.552218
 373,C.Jones,Liverpool,MID,5.5,12.9,0.0
 374,Endo,Liverpool,MID,4.8,12.9,344.0034
 375,Nyoni,Liverpool,MID,4.8,12.9,315.33645
 376,Bajcetic,Liverpool,MID,5.0,12.9,0.0
-377,Munoz,Liverpool,MID,6.5,12.9,355.59108000000003
+377,Munoz,Liverpool,MID,6.5,12.9,358.77737999999994
 378,McConnell,Liverpool,MID,4.3,12.9,309.62412000000006
-379,Isak,Liverpool,FWD,9.3,10.0,389.142
+379,Isak,Liverpool,FWD,9.3,10.0,382.70743333333337
 380,Ekitiké,Liverpool,FWD,7.4,10.0,0.0
 381,Koumas,Liverpool,MID,5.0,12.9,315.33645
 382,Danns,Liverpool,FWD,4.5,10.0,344.02680000000004
 383,Elliott,Liverpool,MID,5.4,12.9,0.0
-579,Araujo,Liverpool,DEF,5.5,21.58,381.1141600000001
-627,Barcola,Liverpool,MID,8.1,12.9,334.659312
+579,Araujo,Liverpool,DEF,5.5,21.58,374.244375
+627,Barcola,Liverpool,MID,8.1,12.9,331.784232
 155,Enzo,Man City,MID,6.9,12.78,320.066682
-237,Ndiaye,Man City,MID,5.7,12.78,322.18368000000004
+237,Ndiaye,Man City,MID,5.7,12.78,322.16184000000004
 384,Donnarumma,Man City,GK,5.4,21.11,370.1849850000001
 386,Bettinelli,Man City,GK,4.4,21.11,357.21000000000004
 387,O'Reilly,Man City,DEF,6.2,21.11,385.96327777777776
-388,Guéhi,Man City,DEF,5.9,21.11,382.9121555555556
+388,Guéhi,Man City,DEF,5.9,21.11,382.88632500000006
 389,Matheus N.,Man City,DEF,5.9,21.11,382.0254166666667
 390,Rúben,Man City,DEF,5.5,21.11,348.4592
-391,Gvardiol,Man City,DEF,5.5,21.11,386.90819444444446
+391,Gvardiol,Man City,DEF,5.5,21.11,386.85625000000005
 392,Aït-Nouri,Man City,DEF,5.1,21.11,337.43385
 393,Khusanov,Man City,DEF,5.3,21.11,391.13486666666665
 394,Alleyne,Man City,DEF,5.0,21.11,0.0
@@ -485,7 +485,7 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 396,Vitor Reis,Man City,DEF,4.4,21.11,337.36500000000007
 397,Semenyo,Man City,MID,8.1,12.78,0.0
 398,Foden,Man City,MID,6.8,12.78,352.7402666666666
-399,Cherki,Man City,MID,7.8,12.78,338.062569
+399,Cherki,Man City,MID,7.8,12.78,337.972557
 400,Doku,Man City,MID,7.5,12.78,357.7392
 402,Rodrigo,Man City,MID,6.5,12.78,0.0
 404,Reijnders,Man City,MID,6.0,12.78,0.0
@@ -495,82 +495,82 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 409,Mukasa,Man City,MID,4.5,12.78,0.0
 410,Monga,Man City,MID,4.9,12.78,0.0
 411,Haaland,Man City,FWD,15.8,10.0,371.28
-481,Anderson,Man City,MID,6.2,12.78,378.6403833333333
+481,Anderson,Man City,MID,6.2,12.78,378.66607999999997
 587,Rulli,Man City,GK,4.9,21.11,357.21000000000004
 616,Bouaddi,Man City,MID,5.5,12.78,315.35790000000003
 621,McAidoo,Man City,MID,4.4,12.78,309.60306
 622,Braithwaite,Man City,DEF,3.9,21.11,337.41089999999997
 628,Allan,Man City,MID,6.0,12.78,313.59510000000006
 653,Samba,Man City,MID,4.4,12.78,309.582
-43,Tielemans,Man Utd,MID,5.6,12.93,362.08674666666667
+43,Tielemans,Man Utd,MID,5.6,12.93,367.82403666666664
 131,Baleba,Man Utd,MID,4.9,12.93,0.0
-162,Andrey Santos,Man Utd,MID,4.7,12.93,318.26808
+162,Andrey Santos,Man Utd,MID,4.7,12.93,315.4008
 325,Darlow,Man Utd,GK,4.5,21.74,297.67499999999995
-412,Lammens,Man Utd,GK,4.8,21.74,370.84959
+412,Lammens,Man Utd,GK,4.8,21.74,372.1788
 413,Bayindir,Man Utd,GK,4.5,21.74,0.0
 414,Heaton,Man Utd,GK,4.0,21.74,396.927
-415,Dorgu,Man Utd,MID,5.7,12.93,364.43836
-416,De Ligt,Man Utd,DEF,4.9,21.74,378.3465694444444
+415,Dorgu,Man Utd,MID,5.7,12.93,371.44679
+416,De Ligt,Man Utd,DEF,4.9,21.74,379.7349972222222
 417,Dalot,Man Utd,DEF,4.7,21.74,343.893
-418,Maguire,Man Utd,DEF,4.5,21.74,381.59371111111113
+418,Maguire,Man Utd,DEF,4.5,21.74,382.9863888888889
 419,Martinez,Man Utd,DEF,4.8,21.74,375.0795
 420,Yoro,Man Utd,DEF,4.8,21.74,0.0
 421,Heaven,Man Utd,DEF,4.2,21.74,374.90099999999995
-422,Mazraoui,Man Utd,DEF,4.3,21.74,380.5068444444444
-423,Shaw,Man Utd,DEF,4.2,21.74,0.0
+422,Mazraoui,Man Utd,DEF,4.3,21.74,381.8955555555556
+423,Shaw,Man Utd,DEF,4.2,21.74,281.71125
 424,Amass,Man Utd,DEF,3.9,21.74,337.41089999999997
 425,Fredricson,Man Utd,DEF,4.0,21.74,0.0
-426,B.Fernandes,Man Utd,MID,11.6,12.93,334.1325
-427,Mbeumo,Man Utd,MID,7.8,12.93,321.99102000000005
-428,Cunha,Man Utd,MID,7.8,12.93,323.422008
+426,B.Fernandes,Man Utd,MID,11.6,12.93,341.082807
+427,Mbeumo,Man Utd,MID,7.8,12.93,320.809125
+428,Cunha,Man Utd,MID,7.8,12.93,326.2773150000001
 429,Rashford,Man Utd,MID,6.8,12.93,0.0
-430,Mount,Man Utd,MID,5.4,12.93,351.624
-431,Amad,Man Utd,MID,5.7,12.93,353.60715
-432,Mainoo,Man Utd,MID,5.5,12.93,356.9869333333333
+430,Mount,Man Utd,MID,5.4,12.93,350.34999999999997
+431,Amad,Man Utd,MID,5.7,12.93,352.33289
+432,Mainoo,Man Utd,MID,5.5,12.93,361.44927
 433,Ugarte,Man Utd,MID,5.0,12.93,0.0
 434,J.Fletcher,Man Utd,MID,4.8,12.93,309.582
-435,Lacey,Man Utd,MID,4.9,12.93,312.46975499999996
+435,Lacey,Man Utd,MID,4.9,12.93,311.323077
 436,Collyer,Man Utd,MID,5.0,12.93,0.0
 437,Bendito Mantato,Man Utd,MID,4.4,12.93,309.62412000000006
 438,Fletcher,Man Utd,MID,4.3,12.93,309.64518000000004
 439,Šeško,Man Utd,FWD,6.9,10.0,0.0
-440,Zirkzee,Man Utd,FWD,5.3,10.0,319.988448
+440,Zirkzee,Man Utd,FWD,5.3,10.0,321.13536000000005
 441,Obi,Man Utd,FWD,4.5,10.0,0.0
-405,N.Gonzalez,Newcastle,MID,5.5,12.89,358.0427066666667
+405,N.Gonzalez,Newcastle,MID,5.5,12.89,354.8572733333333
 442,Pope,Newcastle,GK,4.8,21.58,357.40440000000007
 443,Gillespie,Newcastle,GK,4.5,21.58,357.21000000000004
 444,Jaouen,Newcastle,GK,4.4,21.58,0.0
-445,Thiaw,Newcastle,DEF,4.9,21.58,353.2959125
-446,Schär,Newcastle,DEF,4.9,21.58,392.2575277777778
-447,Botman,Newcastle,DEF,5.0,21.58,338.77574500000003
-448,Burn,Newcastle,DEF,4.8,21.58,397.2524111111111
-449,Hall,Newcastle,DEF,5.2,21.58,300.067
-450,Livramento,Newcastle,DEF,4.8,21.58,376.2383333333333
+445,Thiaw,Newcastle,DEF,4.9,21.58,356.4224250000001
+446,Schär,Newcastle,DEF,4.9,21.58,381.8436111111111
+447,Botman,Newcastle,DEF,5.0,21.58,339.40079249999997
+448,Burn,Newcastle,DEF,4.8,21.58,391.0019361111111
+449,Hall,Newcastle,DEF,5.2,21.58,296.34208750000005
+450,Livramento,Newcastle,DEF,4.8,21.58,376.9325
 451,A.Murphy,Newcastle,DEF,4.0,21.58,0.0
-453,Barnes,Newcastle,MID,6.0,12.89,338.384592
-454,Elanga,Newcastle,MID,6.0,12.89,352.15024
+453,Barnes,Newcastle,MID,6.0,12.89,332.054268
+454,Elanga,Newcastle,MID,6.0,12.89,352.7881933333333
 456,J.Ramsey,Newcastle,MID,4.8,12.89,344.0034
-457,J.Murphy,Newcastle,MID,5.9,12.89,335.403315
+457,J.Murphy,Newcastle,MID,5.9,12.89,332.53661999999997
 458,Joelinton,Newcastle,MID,5.4,12.89,0.0
-459,L.Miley,Newcastle,MID,5.5,12.89,349.09974666666665
-460,Willock,Newcastle,MID,5.0,12.89,325.723008
-461,Touré,Newcastle,MID,5.7,12.89,345.2774866666666
-462,Steur,Newcastle,MID,4.7,12.89,318.203145
+459,L.Miley,Newcastle,MID,5.5,12.89,350.3738333333333
+460,Willock,Newcastle,MID,5.0,12.89,325.149552
+461,Touré,Newcastle,MID,5.7,12.89,345.91453
+462,Steur,Newcastle,MID,4.7,12.89,319.34982299999996
 463,Woltemade,Newcastle,FWD,5.9,10.0,0.0
-464,Wissa,Newcastle,FWD,5.9,10.0,318.05467200000004
-465,Osula,Newcastle,FWD,5.8,10.0,372.74640000000005
+464,Wissa,Newcastle,FWD,5.9,10.0,318.630858
+465,Osula,Newcastle,FWD,5.8,10.0,363.1888
 466,Neave,Newcastle,FWD,4.5,10.0,0.0
 559,Bamba,Newcastle,MID,4.8,12.89,309.60306
-567,Horníček,Newcastle,GK,5.0,21.58,382.63311
-593,Dedić,Newcastle,DEF,4.4,21.58,402.8905555555556
+567,Horníček,Newcastle,GK,5.0,21.58,372.70318499999996
+593,Dedić,Newcastle,DEF,4.4,21.58,386.9138611111111
 609,Shahar,Newcastle,DEF,4.0,21.58,0.0
-634,Fernandez-Pardo,Newcastle,FWD,5.8,10.0,345.2774866666666
+634,Fernandez-Pardo,Newcastle,FWD,5.8,10.0,345.91453
 659,Miley,Newcastle,MID,4.5,12.89,309.60306
 663,Pivas,Newcastle,DEF,4.0,21.58,337.36500000000007
 664,Salia,Newcastle,FWD,4.5,10.0,309.64518000000004
 665,Mills,Newcastle,MID,4.5,12.89,309.582
 666,Thompson,Newcastle,MID,4.5,12.89,309.582
-167,Delap,Nott'm Forest,FWD,5.3,10.0,340.360059
+167,Delap,Nott'm Forest,FWD,5.3,10.0,340.38318599999997
 201,Muñoz,Nott'm Forest,DEF,5.2,21.27,342.66815
 467,Sels,Nott'm Forest,GK,5.0,21.27,368.781345
 468,John,Nott'm Forest,GK,4.4,21.27,357.2343
@@ -594,55 +594,55 @@ id,web_name,team_name,position,price,ep_total,exp_minutes
 487,Dominguez,Nott'm Forest,MID,4.8,12.82,0.0
 488,I.Sangaré,Nott'm Forest,MID,4.7,12.82,345.96159
 489,Yates,Nott'm Forest,MID,4.4,12.82,352.5006333333334
-490,Wood,Nott'm Forest,FWD,5.7,10.0,313.744431
+490,Wood,Nott'm Forest,FWD,5.6,10.0,313.744431
 491,Igor Jesus,Nott'm Forest,FWD,5.6,10.0,346.14983
 493,Kalimuendo,Nott'm Forest,FWD,5.4,10.0,311.30190000000005
 558,Schlager,Nott'm Forest,MID,5.0,12.82,363.11469999999997
 581,Diomande,Nott'm Forest,DEF,5.3,21.27,337.47975
 590,Benda,Nott'm Forest,GK,4.5,21.27,357.2343
-112,Van Hecke,Spurs,DEF,5.2,21.89,435.91683333333333
+112,Van Hecke,Spurs,DEF,5.2,21.89,438.1437861111112
 147,Tosin,Spurs,DEF,4.3,21.89,0.0
-401,Marmoush,Spurs,FWD,7.0,10.0,356.02632000000006
-403,Sávio,Spurs,MID,6.4,12.97,258.993345
-455,Tonali,Spurs,MID,5.3,12.97,358.45671333333337
+401,Marmoush,Spurs,FWD,7.0,10.0,355.38828
+403,Sávio,Spurs,MID,6.4,12.97,259.47119250000003
+455,Tonali,Spurs,MID,5.3,12.97,352.71630333333337
 494,Vicario,Spurs,GK,4.5,21.89,0.0
 495,Austin,Spurs,GK,4.0,21.89,357.453
-496,Kinsky,Spurs,GK,4.4,21.89,401.24700000000007
-497,Dubravka,Spurs,GK,3.9,21.89,360.80640000000005
-498,Senesi,Spurs,DEF,5.7,21.89,350.5502
-499,Pedro Porro,Spurs,DEF,5.3,21.89,407.49637500000006
+496,Kinsky,Spurs,GK,4.4,21.89,394.5861
+497,Dubravka,Spurs,GK,3.9,21.89,360.78210000000007
+498,Senesi,Spurs,DEF,5.7,21.89,354.93207750000005
+499,Pedro Porro,Spurs,DEF,5.3,21.89,415.88346666666666
 500,Romero,Spurs,DEF,5.0,21.89,0.0
-502,Robertson,Spurs,DEF,4.3,21.89,404.80201666666665
-503,Van de Ven,Spurs,DEF,5.0,21.89,396.72475
+502,Robertson,Spurs,DEF,4.3,21.89,401.2970888888889
+503,Van de Ven,Spurs,DEF,5.0,21.89,391.8526916666667
 505,Spence,Spurs,DEF,4.5,21.89,0.0
-506,Udogie,Spurs,DEF,4.4,21.89,387.42404999999997
+506,Udogie,Spurs,DEF,4.4,21.89,390.8955916666667
 507,Phillips,Spurs,DEF,4.5,21.89,0.0
-508,Davies,Spurs,DEF,3.9,21.89,338.84485000000006
+508,Davies,Spurs,DEF,3.9,21.89,337.5945000000001
 509,Byfield,Spurs,DEF,4.0,21.89,337.38795000000005
 510,Rowswell,Spurs,DEF,4.0,21.89,337.38795000000005
 511,Souza,Spurs,DEF,4.0,21.89,0.0
-512,Kudus,Spurs,MID,6.6,12.97,366.8979166666667
+512,Kudus,Spurs,MID,6.6,12.97,368.1740833333334
 513,Xavi,Spurs,MID,5.9,12.97,0.0
 514,Tel,Spurs,MID,5.6,12.97,0.0
-515,Maddison,Spurs,MID,6.2,12.97,349.21848
-516,Bentancur,Spurs,MID,5.4,12.97,345.2774866666666
+515,Maddison,Spurs,MID,6.2,12.97,348.5812199999999
+516,Bentancur,Spurs,MID,5.4,12.97,345.91453
 517,Odobert,Spurs,MID,5.5,12.97,0.0
 518,P.M.Sarr,Spurs,MID,4.9,12.97,0.0
-519,Gallagher,Spurs,MID,5.3,12.97,316.504656
-520,Bergvall,Spurs,MID,5.3,12.97,345.2774866666666
-521,Kulusevski,Spurs,MID,6.5,12.97,349.09974666666665
-522,Gray,Spurs,MID,4.9,12.97,325.67870400000004
+519,Gallagher,Spurs,MID,5.3,12.97,319.37154599999997
+520,Bergvall,Spurs,MID,5.3,12.97,345.91453
+521,Kulusevski,Spurs,MID,6.5,12.97,348.4627033333333
+522,Gray,Spurs,MID,4.9,12.97,325.10532600000005
 523,Moore,Spurs,MID,5.0,12.97,0.0
-524,Olusesi,Spurs,MID,4.4,12.97,309.75048000000004
-525,Fernandes,Spurs,MID,5.6,12.97,337.260924
-526,Solanke,Spurs,FWD,5.8,10.0,325.944528
+524,Olusesi,Spurs,MID,4.4,12.97,309.72942
+525,Fernandes,Spurs,MID,5.6,12.97,332.67233999999996
+526,Solanke,Spurs,FWD,5.8,10.0,328.81375800000006
 527,Richarlison,Spurs,FWD,5.9,10.0,0.0
 528,Scarlett,Spurs,FWD,4.5,10.0,0.0
 578,Mudryk,Spurs,MID,5.3,12.97,0.0
-601,Williams-Barnett,Spurs,MID,4.4,12.97,331.435026
+601,Williams-Barnett,Spurs,MID,4.4,12.97,338.31603
 671,Gunter,Spurs,GK,4.0,21.89,357.21000000000004
 501,Danso,Sunderland,DEF,5.0,21.43,0.0
-529,Roefs,Sunderland,GK,4.8,21.43,407.3759999999999
+529,Roefs,Sunderland,GK,4.8,21.43,407.4036749999999
 530,Patterson,Sunderland,GK,4.0,21.43,0.0
 531,Ellborg,Sunderland,GK,4.4,21.43,357.2343
 532,Ballard,Sunderland,DEF,4.7,21.43,0.0
